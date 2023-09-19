@@ -5,6 +5,7 @@ go 1.18
 require (
 	github.com/aws/aws-lambda-go v1.41.0
 	github.com/gocolly/colly/v2 v2.1.0
+	github.com/google/go-cmp v0.5.9
 	github.com/joho/godotenv v1.5.1
 	github.com/pulumi/pulumi-aws/sdk/v6 v6.0.2
 	github.com/pulumi/pulumi/sdk/v3 v3.78.1
