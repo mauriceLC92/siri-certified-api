@@ -1,0 +1,2567 @@
+companyName: &TRADITION A/S	
+cvrNumber: 18169304
+
+companyName: 3Shape A/S	
+cvrNumber: 25553489
+
+companyName: 3XN A/S	
+cvrNumber: 14277137
+
+companyName: A.T. Kearney P/S	
+cvrNumber: 37811319
+
+companyName: AAK DENMARK A/S	
+cvrNumber: 15672099
+
+companyName: Abacus Medicine A/S	
+cvrNumber: 28111576
+
+companyName: ABB A/S	
+cvrNumber: 31371716
+
+companyName: Abtion A/S	
+cvrNumber: 33147791
+
+companyName: Accenture A/S	
+cvrNumber: 13227500
+
+companyName: Accura Advokatpartnerselskab	
+cvrNumber: 33039018
+
+companyName: Actimo ApS	
+cvrNumber: 32932770
+
+companyName: ADCendo ApS	
+cvrNumber: 38780093
+
+companyName: ADI Global Distribution Denmark A/S	
+cvrNumber: 10508894
+
+companyName: Aeven A/S	
+cvrNumber: 43432133
+
+companyName: AFRY Denmark A/S	
+cvrNumber: 13590885
+
+companyName: AGC Biologics A/S	
+cvrNumber: 25950941
+
+companyName: AGF A/S	
+cvrNumber: 83839910
+
+companyName: Agilent Technologies Denmark ApS	
+cvrNumber: 21852902
+
+companyName: Agramkow Fluid Systems A/S	
+cvrNumber: 12245599
+
+companyName: Agreena ApS	
+cvrNumber: 39467275
+
+companyName: AIG Europe, dansk filial af AIG Europe S.A., Luxembourg	
+cvrNumber: 39475723
+
+companyName: AIP Management P/S	
+cvrNumber: 39504308
+
+companyName: Air Liquide Danmark A/S	
+cvrNumber: 15036117
+
+companyName: Airtame ApS	
+cvrNumber: 35478973
+
+companyName: AJKON ApS	
+cvrNumber: 39950332
+
+companyName: Aktieselskabet Th. Wessel & Vett. Magasin Du Nord	
+cvrNumber: 58191213
+
+companyName: Akurat A/S	
+cvrNumber: 39470268
+
+companyName: AKQA Denmark A/S	
+cvrNumber: 29203776
+
+companyName: Albatros Travel A/S	
+cvrNumber: 20342781
+
+companyName: Alchemist ApS	
+cvrNumber: 36890207
+
+companyName: Alcon Nordic A/S	
+cvrNumber: 15887478
+
+companyName: ALD Automotive A/S	
+cvrNumber: 87573613
+
+companyName: A-Leaf ApS	
+cvrNumber: 35520023
+
+companyName: Alfa Laval Copenhagen A/S	
+cvrNumber: 10134285
+
+companyName: Alfa Laval Kolding A/S	
+cvrNumber: 30938011
+
+companyName: Alfa Laval Nakskov A/S	
+cvrNumber: 20533900
+
+companyName: Alfa Laval Nordic A/S	
+cvrNumber: 20255617
+
+companyName: Alfa Laval Aalborg A/S	
+cvrNumber: 17830635
+
+companyName: Alfapeople Nordic A/S	
+cvrNumber: 28295448
+
+companyName: Align Technology ApS	
+cvrNumber: 42284041
+
+companyName: Alipes Capital ApS	
+cvrNumber: 31883784
+
+companyName: Alm. Brand Forsikring A/S	
+cvrNumber: 10526949
+
+companyName: Altrad Services A/S	
+cvrNumber: 41656204
+
+companyName: Altus Intervention, filial af Altus Intervention AS, Norge	
+cvrNumber: 33068182
+
+companyName: AMBU A/S	
+cvrNumber: 63644919
+
+companyName: ANCHERSEN A/S	
+cvrNumber: 30822536
+
+companyName: Andel Holding A/S	
+cvrNumber: 25784413
+
+companyName: Anthill Agency A/S	
+cvrNumber: 34466513
+
+companyName: A.P. MØLLER HOLDING A/S	
+cvrNumber: 25679288
+
+companyName: APPLE AB, Filial af Apple Aktiebolag, Sverige	
+cvrNumber: 28703228
+
+companyName: aptio group Denmark ApS	
+cvrNumber: 39420937
+
+companyName: ARAMARK DENMARK ApS	
+cvrNumber: 32946593
+
+companyName: ARDAGH GLASS HOLMEGAARD A/S	
+cvrNumber: 18445042
+
+companyName: Ardmac ApS	
+cvrNumber: 38800639
+
+companyName: Area9 Lyceum ApS	
+cvrNumber: 39079976
+
+companyName: Arkitektskolen Aarhus	
+cvrNumber: 27120717
+
+companyName: Arla Foods AMBA	
+cvrNumber: 25313763
+
+companyName: Ascendis Pharma A/S	
+cvrNumber: 29918791
+
+companyName: Asiainfo Denmark ApS	
+cvrNumber: 35515798
+
+companyName: Astralis Group Management ApS	
+cvrNumber: 39990970
+
+companyName: Atkins Danmark A/S	
+cvrNumber: 26048494
+
+companyName: ATLANT 3D Nanosystems ApS	
+cvrNumber: 40051171
+
+companyName: ATOS IT SOLUTIONS AND SERVICES A/S	
+cvrNumber: 33051034
+
+companyName: AUTOSTREIT ApS	
+cvrNumber: 33044011
+
+companyName: Au2Vest ApS	
+cvrNumber: 37874299
+
+companyName: Avanade Denmark A/S	
+cvrNumber: 20646330
+
+companyName: B&O Play A/S	
+cvrNumber: 33859643
+
+companyName: BAADER Food Systems Denmark A/S	
+cvrNumber: 19189511
+
+companyName: Babcock & Wilcox Vølund A/S	
+cvrNumber: 25053664
+
+companyName: Bacon X ApS	
+cvrNumber: 31933080
+
+companyName: BAD & FLISER A/S	
+cvrNumber: 32059279
+
+companyName: Bain & Company Denmark ApS	
+cvrNumber: 30714520
+
+companyName: Bakken Bears A/S	
+cvrNumber: 28716958
+
+companyName: Ball Beverage Packaging Fredericia A/S	
+cvrNumber: 30917839
+
+companyName: Banedanmark	
+cvrNumber: 18632276
+
+companyName: Bang & Olufsen A/S	
+cvrNumber: 41257911
+
+companyName: Bankernes EDB Central A.M.B.A.	
+cvrNumber: 13088810
+
+companyName: Banking Circle Denmark, Filial af Banking Circle S.A., Luxembourg	
+cvrNumber: 41023821
+
+companyName: BASF Coatings Services, filial af (BASF Coatings Services AB, Sverige)	
+cvrNumber: 10077214
+
+companyName: Bauhaus Danmark A/S	
+cvrNumber: 19555305
+
+companyName: Bavarian Nordic A/S	
+cvrNumber: 16271187
+
+companyName: BB Electronics A/S	
+cvrNumber: 21662534
+
+companyName: BB Kolding ApS	
+cvrNumber: 26388902
+
+companyName: BC Hospitality Group A/S	
+cvrNumber: 37939838
+
+companyName: Bech-Bruun Advokatpartnerselskab	
+cvrNumber: 38538071
+
+companyName: BeGreen ApS	
+cvrNumber: 43692836
+
+companyName: Bel Air Aviation	
+cvrNumber: 29143307
+
+companyName: Bestseller A/S	
+cvrNumber: 88216512
+
+companyName: Bestseller Wholesale A/S	
+cvrNumber: 39365871
+
+companyName: Better Collective ApS	
+cvrNumber: 27652913
+
+companyName: BEUMER Group A/S	
+cvrNumber: 12655681
+
+companyName: BHJ A/S	
+cvrNumber: 11423418
+
+companyName: BIH-INVEST ApS	
+cvrNumber: 26541670
+
+companyName: Bilfinger Industrier Danmark A/S	
+cvrNumber: 33859538
+
+companyName: Bilfinger Salamis Danmark, filial af Bilfinger Salamis UK Limited, Storbritannien	
+cvrNumber: 39115654
+
+companyName: BILHUSET ENGMARK A/S	
+cvrNumber: 32078850
+
+companyName: BioInnovation Institute Fonden	
+cvrNumber: 41898666
+
+companyName: BIOMAR A/S	
+cvrNumber: 37820318
+
+companyName: Biomar Group A/S	
+cvrNumber: 38570617
+
+companyName: BioPhero ApS	
+cvrNumber: 38109340
+
+companyName: BioPorto Diagnostics A/S	
+cvrNumber: 18645882
+
+companyName: Birger Christensen A/S	
+cvrNumber: 10750113
+
+companyName: BITZER Electronics A/S	
+cvrNumber: 21340006
+
+companyName: Bizbrains A/S	
+cvrNumber: 33510837
+
+companyName: Bjarke Ingels Group A/S	
+cvrNumber: 29309396
+
+companyName: BK Medical ApS	
+cvrNumber: 15731176
+
+companyName: BLAST ApS	
+cvrNumber: 38074466
+
+companyName: BLUE FOX - HERNING A/S	
+cvrNumber: 21790206
+
+companyName: Blue Ocean Robotics ApS	
+cvrNumber: 34885478
+
+companyName: BlueCollar A/S	
+cvrNumber: 32095828
+
+companyName: BlueNord Energy Denmark A/S	
+cvrNumber: 78342714
+
+companyName: Bluetown ApS	
+cvrNumber: 30075277
+
+companyName: Blue Water Shipping A/S	
+cvrNumber: 40516611
+
+companyName: BLÜCHER METAL A/S	
+cvrNumber: 49260016
+
+companyName: BMS Heavy Cranes A/S	
+cvrNumber: 33499639
+
+companyName: Boehringer Ingelheim Animal Health Denmark A/S	
+cvrNumber: 13526990
+
+companyName: BOEHRINGER INGELHEIM DANMARK A/S	
+cvrNumber: 14450807
+
+companyName: BOSCH REXROTH A/S	
+cvrNumber: 82104313
+
+companyName: BPA Pro Team ApS	
+cvrNumber: 33957157
+
+companyName: Brave Solar A/S	
+cvrNumber: 38780727
+
+companyName: Bright Star Studios ApS	
+cvrNumber: 39822075
+
+companyName: Brøndbyernes I.F. Fodbold A/S	
+cvrNumber: 83933410
+
+companyName: BS Denmark ApS	
+cvrNumber: 37891940
+
+companyName: BUKA ApS	
+cvrNumber: 40383646
+
+companyName: Burmeister & Wain Scandinavian Contractor A/S	
+cvrNumber: 87929116
+
+companyName: BW Epic Kosan Maritime Pte. Ltd., Denmark, filial af BW Epic Kosan Maritime Pte. Ltd., Singapore	
+cvrNumber: 42069477
+
+companyName: By Malene Birger A/S	
+cvrNumber: 26869048
+
+companyName: Byens Bilpleje Køge ApS	
+cvrNumber: 39322609
+
+companyName: Cadeler A/S	
+cvrNumber: 31180503
+
+companyName: C&D FOODS (DENMARK) A/S	
+cvrNumber: 78804912
+
+companyName: Cafeen af 26/11 ApS	
+cvrNumber: 40067140
+
+companyName: CANON DANMARK A/S	
+cvrNumber: 56193316
+
+companyName: Capgemini Danmark A/S	
+cvrNumber: 25606965
+
+companyName: Capital Four Management Fondsmæglerselskab A/S	
+cvrNumber: 30593065
+
+companyName: Carlsberg A/S	
+cvrNumber: 61056416
+
+companyName: Carlsberg Breweries A/S	
+cvrNumber: 25508343
+
+companyName: Carlsberg Global Business Services A/S	
+cvrNumber: 27139280
+
+companyName: Carrington ApS	
+cvrNumber: 21416134
+
+companyName: Cassin Networks ApS	
+cvrNumber: 36967552
+
+companyName: Castberggård	
+cvrNumber: 50572617
+
+companyName: CDRator A/S	
+cvrNumber: 26499879
+
+companyName: Centrica Energy Trading A/S	
+cvrNumber: 20293195
+
+companyName: CERTEX Danmark A/S	
+cvrNumber: 16069248
+
+companyName: Ce-Tec A/S	
+cvrNumber: 33771339
+
+companyName: CFCO A/S	
+cvrNumber: 38729144
+
+companyName: C.F. MØLLER DANMARK A/S	
+cvrNumber: 29244391
+
+companyName: CGI Danmark A/S	
+cvrNumber: 63890812
+
+companyName: CG Jensen A/S	
+cvrNumber: 30517628
+
+companyName: Chainalysis ApS	
+cvrNumber: 39221233
+
+companyName: Cheminova A/S	
+cvrNumber: 12760043
+
+companyName: Chopsticks Værløse ApS	
+cvrNumber: 41218355
+
+companyName: Chr. Hansen A/S	
+cvrNumber: 12516479
+
+companyName: Chr. Hansen Holding A/S	
+cvrNumber: 28318677
+
+companyName: Chr. Hansen Natural Colors A/S	
+cvrNumber: 35638784
+
+companyName: CityJet A/S	
+cvrNumber: 34576890
+
+companyName: Clean	
+cvrNumber: 29727538
+
+companyName: CLIPPER BULK A/S	
+cvrNumber: 21289086
+
+companyName: CO-RO A/S	
+cvrNumber: 63548715
+
+companyName: Cobe A/S	
+cvrNumber: 30914678
+
+companyName: Cobiro ApS	
+cvrNumber: 37518336
+
+companyName: COBOD International A/S	
+cvrNumber: 38151886
+
+companyName: Codan Forsikring A/S	
+cvrNumber: 41963948
+
+companyName: CODAN MEDICAL ApS	
+cvrNumber: 16272078
+
+companyName: Cognizant Technology Solutions Denmark ApS	
+cvrNumber: 31160502
+
+companyName: Colgate-Palmolive A/S	
+cvrNumber: 43418114
+
+companyName: Collen ApS	
+cvrNumber: 43050893
+
+companyName: Coloplast A/S	
+cvrNumber: 69749917
+
+companyName: Columbus A/S	
+cvrNumber: 13228345
+
+companyName: COMBINEERING A/S	
+cvrNumber: 29609969
+
+companyName: COMCORES ApS	
+cvrNumber: 35807837
+
+companyName: Computershare A/S	
+cvrNumber: 27088899
+
+companyName: Contractbook ApS	
+cvrNumber: 36890649
+
+companyName: Coop Danmark A/S	
+cvrNumber: 26259495
+
+companyName: Copenhagen Business School Handelshøjskolen	
+cvrNumber: 19596915
+
+companyName: Copenhagen Capacity	
+cvrNumber: 17538896
+
+companyName: Copenhagen Infrastructure Partners P/S	
+cvrNumber: 37994006
+
+companyName: Copenhagen Infrastructure Service Company ApS	
+cvrNumber: 39427168
+
+companyName: Copenhagen International School	
+cvrNumber: 53060811
+
+companyName: Copenhagen Offshore Partners A/S	
+cvrNumber: 36914793
+
+companyName: Copyright Agent A/S	
+cvrNumber: 37597287
+
+companyName: Corti ApS	
+cvrNumber: 35669825
+
+companyName: Covento A/S	
+cvrNumber: 43186655
+
+companyName: COWI A/S	
+cvrNumber: 44623528
+
+companyName: CP Kelco ApS	
+cvrNumber: 21210285
+
+companyName: CSIS Security Group A/S	
+cvrNumber: 29523355
+
+companyName: CSK Stålindustri A/S	
+cvrNumber: 20216883
+
+companyName: C.V.S Sikring ApS	
+cvrNumber: 37127671
+
+companyName: DAIFUKU EUROPE, filial af Daifuku Europe GmbH, Tyskland	
+cvrNumber: 39848236
+
+companyName: Dalberg Media ApS	
+cvrNumber: 36735902
+
+companyName: Dalbo A/S	
+cvrNumber: 15661135
+
+companyName: Damco Denmark A/S	
+cvrNumber: 75085818
+
+companyName: Dampskibsselskabet Norden A/S	
+cvrNumber: 67758919
+
+companyName: Dancenter A/S	
+cvrNumber: 67324013
+
+companyName: DANELEC ELECTRONICS A/S	
+cvrNumber: 18630877
+
+companyName: Danfoss A/S	
+cvrNumber: 20165715
+
+companyName: Danfoss Power Electronics A/S	
+cvrNumber: 19883876
+
+companyName: Danfoss Power Solutions ApS	
+cvrNumber: 25814363
+
+companyName: Danica Pension, Livsforsikringsaktieselskab	
+cvrNumber: 24256146
+
+companyName: Danimex Communication A/S	
+cvrNumber: 29669015
+
+companyName: Danish Crown A/S	
+cvrNumber: 26121264
+
+companyName: Danmarks Meteorologiske Institut (DMI)	
+cvrNumber: 18159104
+
+companyName: Danmarks Tekniske Universitet (DTU)	
+cvrNumber: 30060946
+
+companyName: DANMON GROUP A/S	
+cvrNumber: 66315428
+
+companyName: DANSK BOLDSPIL-UNION	
+cvrNumber: 21299014
+
+companyName: Dansk Brand- og sikringsteknisk Institut	
+cvrNumber: 65196816
+
+companyName: Dansk Fundamental Metrologi A/S	
+cvrNumber: 29217939
+
+companyName: Dansk Flygtningehjælp	
+cvrNumber: 20699310
+
+companyName: Dansk Institut for Internationale Studier (DIIS)	
+cvrNumber: 34462674
+
+companyName: Dansk Stillads Service A/S	
+cvrNumber: 10477530
+
+companyName: Danske Bank A/S	
+cvrNumber: 61126228
+
+companyName: Danske Commodities A/S	
+cvrNumber: 28113951
+
+companyName: Dantec Dynamics A/S	
+cvrNumber: 15107588
+
+companyName: Dapsi International ApS	
+cvrNumber: 37246433
+
+companyName: DAT-Schaub A/S	
+cvrNumber: 33353170
+
+companyName: Davai Bridge & Tunnel A/S	
+cvrNumber: 35409173
+
+companyName: De Nationale Geologiske Undersøgelser for Danmark og Grønland	
+cvrNumber: 55145016
+
+companyName: Dedalus Healthcare Denmark ApS	
+cvrNumber: 41744901
+
+companyName: Den Danske Scenekunstskole	
+cvrNumber: 51531817
+
+companyName: Det Kongelige Danske Kunstakademis Skoler for Arkitektur, Design og Konservering	
+cvrNumber: 18975734
+
+companyName: DELEGATE A/S	
+cvrNumber: 29772843
+
+companyName: Deloitte MCS Limited	
+cvrNumber: 35451501
+
+companyName: Deloitte Statsautoriseret Revisionspartnerselskab	
+cvrNumber: 33963556
+
+companyName: Dept Design & Technology ApS	
+cvrNumber: 30530748
+
+companyName: Dept Digital Marketing ApS	
+cvrNumber: 32675611
+
+companyName: Det Kongelige Teater og Kapel	
+cvrNumber: 10842255
+
+companyName: Devote Consulting ApS	
+cvrNumber: 35233563
+
+companyName: DFDS	
+cvrNumber: 14194711
+
+companyName: Dhaba Street Food ApS	
+cvrNumber: 41296909
+
+companyName: DHI A/S	
+cvrNumber: 36466871
+
+companyName: Diageo Denmark A/S	
+cvrNumber: 21256110
+
+companyName: Dignity - Dansk Institut mod Tortur	
+cvrNumber: 69735118
+
+companyName: Dinex A/S	
+cvrNumber: 10504473
+
+companyName: District Tonkin Group ApS	
+cvrNumber: 41413395
+
+companyName: Dixa ApS	
+cvrNumber: 36561009
+
+companyName: DNV GL Denmark A/S	
+cvrNumber: 89832314
+
+companyName: Dornan Engineering, filial af Dornan Engineering Limited, Irland	
+cvrNumber: 38441647
+
+companyName: Dreamdata.io ApS	
+cvrNumber: 39855224
+
+companyName: DRIL-QUIP (EUROPE) LIMITED DANISH BRANCH FILIAL AF DRIL-QUIP	
+cvrNumber: 29180806
+
+companyName: DSB	
+cvrNumber: 25050053
+
+companyName: DSM Nutritional Products A/S	
+cvrNumber: 26081793
+
+companyName: Dupont Nutrition Biosciences ApS	
+cvrNumber: 11350356
+
+companyName: DXC Technology Danmark A/S	
+cvrNumber: 15231599
+
+companyName: Dynaudio A/S	
+cvrNumber: 27215556
+
+companyName: EA ENERGIANALYSE A/S	
+cvrNumber: 28985827
+
+companyName: EagleBurgmann KE A/S	
+cvrNumber: 13436681
+
+companyName: Ecapacity A/S	
+cvrNumber: 30814037
+
+companyName: EC ApS	
+cvrNumber: 27344445
+
+companyName: ECCO Sko A/S	
+cvrNumber: 45349918
+
+companyName: EET Group A/S	
+cvrNumber: 11783376
+
+companyName: Eficode A/S	
+cvrNumber: 30987225
+
+companyName: EIVA A/S	
+cvrNumber: 84315818
+
+companyName: EJLSKOV A/S	
+cvrNumber: 24232298
+
+companyName: Elis Danmark A/S	
+cvrNumber: 27339506
+
+companyName: Elkjærs Autolakering ApS	
+cvrNumber: 31420350
+
+companyName: Elkjærgruppen ApS	
+cvrNumber: 38957287
+
+companyName: emagine Consulting A/S	
+cvrNumber: 26249627
+
+companyName: emendo Engineering ApS	
+cvrNumber: 38124722
+
+companyName: Emerson Process Management A/S	
+cvrNumber: 31482429
+
+companyName: Empirical ApS	
+cvrNumber: 38124706
+
+companyName: ENABL A/S	
+cvrNumber: 40873406
+
+companyName: Encode A/S	
+cvrNumber: 26317797
+
+companyName: Energi Danmark A/S	
+cvrNumber: 17225898
+
+companyName: Energinet Systemansvar A/S	
+cvrNumber: 39314959
+
+companyName: Energy Machines ApS	
+cvrNumber: 38192191
+
+companyName: Enkali ApS	
+cvrNumber: 40561374
+
+companyName: Enter Group ApS	
+cvrNumber: 43729225
+
+companyName: Envases Europe A/S	
+cvrNumber: 67287118
+
+companyName: Envision Energy (Denmark) ApS	
+cvrNumber: 31492521
+
+companyName: EPOS Group A/S	
+cvrNumber: 39820242
+
+companyName: EQT Partners Denmark ApS	
+cvrNumber: 41073381
+
+companyName: Ernst & Young Godkendt Revisionspartnerselskab	
+cvrNumber: 30700228
+
+companyName: Esbjerg Forenede Boldklubber Elitefodbold A/S	
+cvrNumber: 15619376
+
+companyName: Esbjerg International School	
+cvrNumber: 33335334
+
+companyName: ESS-FOOD A/S	
+cvrNumber: 73599318
+
+companyName: Eurojob Denmark ApS	
+cvrNumber: 37645176
+
+companyName: Europaskolen Københavns Kommune	
+cvrNumber: 64942212
+
+companyName: European Spallation Source ERIC	
+cvrNumber: 35439749
+
+companyName: Evapco Air Solutions A/S	
+cvrNumber: 15911972
+
+companyName: Everfuel A/S	
+cvrNumber: 38456695
+
+companyName: Exerp ApS	
+cvrNumber: 10501148
+
+companyName: Expeditors Denmark ApS	
+cvrNumber: 33879431
+
+companyName: Fairwind A/S	
+cvrNumber: 31429293
+
+companyName: Falck Danmark A/S	
+cvrNumber: 16271241
+
+companyName: Famly ApS	
+cvrNumber: 35413758
+
+companyName: F.C. København P/S	
+cvrNumber: 43952161
+
+companyName: FC Helsingør A/S	
+cvrNumber: 40196927
+
+companyName: FC Midtjylland A/S	
+cvrNumber: 31576156
+
+companyName: FC Nordsjælland A/S	
+cvrNumber: 24257703
+
+companyName: FDC Denmark ApS	
+cvrNumber: 40574832
+
+companyName: Fehmarn Belt Contractors I/S	
+cvrNumber: 37672076
+
+companyName: Ferring Pharmaceuticals A/S	
+cvrNumber: 16313440
+
+companyName: Ferrosan Medical Devices A/S	
+cvrNumber: 32942342
+
+companyName: Fiberline Composites A/S	
+cvrNumber: 13639108
+
+companyName: Fiskehallen Tvilling A/S	
+cvrNumber: 25815955
+
+companyName: Fitness World A/S	
+cvrNumber: 25652991
+
+companyName: FLC Portals Group I/S	
+cvrNumber: 37668818
+
+companyName: FLC Tunnel Group North I/S	
+cvrNumber: 37669296
+
+companyName: FLSmidth A/S	
+cvrNumber: 15028882
+
+companyName: FLSmidth Global Services A/S	
+cvrNumber: 19094308
+
+companyName: Fluor Nordic, filial af Fluor Project Services B.V., Holland	
+cvrNumber: 36705256
+
+companyName: Fodboldalliancen AC Horsens A/S	
+cvrNumber: 89943728
+
+companyName: Fonden DIS – Danish Institute for Study Abroad	
+cvrNumber: 13058946
+
+companyName: Fonden Mærsk Mc-Kinney Møller Center for Zero Carbon Shipping	
+cvrNumber: 41805056
+
+companyName: Force Technology	
+cvrNumber: 55117314
+
+companyName: Forecast APS	
+cvrNumber: 38019651
+
+companyName: Foss Analytical A/S	
+cvrNumber: 73399815
+
+companyName: Frankly A/S	
+cvrNumber: 29206775
+
+companyName: Fredericia Håndboldklub	
+cvrNumber: 13738319
+
+companyName: FUJIFILM Diosynth Biotechnologies Denmark ApS	
+cvrNumber: 26060702
+
+companyName: FUJITSU A/S	
+cvrNumber: 86631628
+
+companyName: Galaxy Denmark Opco ApS	
+cvrNumber: 42921491
+
+companyName: GANNI A/S	
+cvrNumber: 21664731
+
+companyName: Gastronomiet ApS	
+cvrNumber: 28483848
+
+companyName: Gas Turbine Services A/S	
+cvrNumber: 20589183
+
+companyName: Gavdi A/S	
+cvrNumber: 25057732
+
+companyName: GEA Process Engineering A/S	
+cvrNumber: 10050715
+
+companyName: Gehl Architects ApS	
+cvrNumber: 25309529
+
+companyName: Genmab A/S	
+cvrNumber: 21023884
+
+companyName: Georg Jensen A/S	
+cvrNumber: 26573645
+
+companyName: Geranium ApS	
+cvrNumber: 36711086
+
+companyName: GETINGE IT SOLUTIONS ApS	
+cvrNumber: 10220475
+
+companyName: Ghost A/S	
+cvrNumber: 24235521
+
+companyName: Glaxosmithkline Pharma A/S	
+cvrNumber: 27394019
+
+companyName: Global Maritime Forum Fonden	
+cvrNumber: 38864122
+
+companyName: Global Technical Support ApS	
+cvrNumber: 41278692
+
+companyName: Global Wind Service A/S	
+cvrNumber: 31166047
+
+companyName: Globalization Partners Denmark ApS	
+cvrNumber: 38527614
+
+companyName: GLYCOM A/S	
+cvrNumber: 28512457
+
+companyName: Glycom Manufacturing A/S	
+cvrNumber: 37207713
+
+companyName: GN Audio A/S	
+cvrNumber: 15069511
+
+companyName: GN Hearing A/S	
+cvrNumber: 55082715
+
+companyName: GN Store Nord A/S	
+cvrNumber: 24257843
+
+companyName: GOMSPACE A/S	
+cvrNumber: 30899849
+
+companyName: Google Denmark ApS	
+cvrNumber: 28866984
+
+companyName: Gram Equipment A/S	
+cvrNumber: 21274208
+
+companyName: Green Hydrogen Systems A/S	
+cvrNumber: 30548701
+
+companyName: Grundfos A/S	
+cvrNumber: 37499919
+
+companyName: Grundfos Holding A/S	
+cvrNumber: 31858356
+
+companyName: Grundfos Operations A/S	
+cvrNumber: 35817352
+
+companyName: Gulvkanonen ApS	
+cvrNumber: 39247356
+
+companyName: GTS Nordic ApS	
+cvrNumber: 21672475
+
+companyName: H & M Hennes & Mauritz A/S	
+cvrNumber: 33345828
+
+companyName: H. Lundbeck A/S	
+cvrNumber: 56759913
+
+companyName: Haldor Topsøe A/S	
+cvrNumber: 41853816
+
+companyName: Hafnia Pools, filial af Hafnia Pools Pte. Ltd., Singapore	
+cvrNumber: 40513523
+
+companyName: Haleon Denmark ApS	
+cvrNumber: 55541817
+
+companyName: Halliburton Denmark ApS	
+cvrNumber: 19606074
+
+companyName: Hama Sushi ApS	
+cvrNumber: 39571498
+
+companyName: HAMLET PROTEIN A/S	
+cvrNumber: 16049441
+
+companyName: HAVI LOGISTICS ApS	
+cvrNumber: 13788642
+
+companyName: HAY ApS	
+cvrNumber: 26799945
+
+companyName: HCL Technologies Denmark ApS	
+cvrNumber: 33041454
+
+companyName: Heidelberg Materials Precast Denmark A/S	
+cvrNumber: 33255047
+
+companyName: HelloFresh Nordics ApS	
+cvrNumber: 40333371
+
+companyName: Henning Larsen Architects A/S	
+cvrNumber: 18940884
+
+companyName: Hesehus A/S	
+cvrNumber: 26676231
+
+companyName: HI3G DENMARK ApS	
+cvrNumber: 26123445
+
+companyName: Hilding Anders Danmark A/S	
+cvrNumber: 19835901
+
+companyName: Hitachi Energy Denmark A/S	
+cvrNumber: 39856638
+
+companyName: Hobro IK A/S	
+cvrNumber: 29630992
+
+companyName: HOLSCHER NORDBERG Architecture and Planning A/S	
+cvrNumber: 21151009
+
+companyName: House of Prince A/S	
+cvrNumber: 13801134
+
+companyName: HSS Engineering ApS	
+cvrNumber: 21822671
+
+companyName: Hydro Precision Tubing Tønder A/S	
+cvrNumber: 37488410
+
+companyName: Hyme Energy ApS	
+cvrNumber: 42822027
+
+companyName: Højgård Hestehospital A/S	
+cvrNumber: 33783116
+
+companyName: IBM Client Innovation Center Danmark ApS	
+cvrNumber: 38073729
+
+companyName: IBM Danmark ApS	
+cvrNumber: 65305216
+
+companyName: Ibsen Photonics A/S	
+cvrNumber: 26284066
+
+companyName: ICAP Scandinavia, filial af TP ICAP (Europe) SA, Frankrig	
+cvrNumber: 40893709
+
+companyName: IFS Danmark A/S	
+cvrNumber: 14453431
+
+companyName: IKEA A/S	
+cvrNumber: 50574911
+
+companyName: ILK Company ApS	
+cvrNumber: 40035087
+
+companyName: Imotions A/S	
+cvrNumber: 33504004
+
+companyName: IMPACT A/S	
+cvrNumber: 25858832
+
+companyName: IMPERO A/S	
+cvrNumber: 32326676
+
+companyName: Implement Consulting Group P/S	
+cvrNumber: 32767788
+
+companyName: In Commodities A/S	
+cvrNumber: 38381954
+
+companyName: India Royale ApS	
+cvrNumber: 36975636
+
+companyName: Ineos E&P A/S	
+cvrNumber: 73349613
+
+companyName: Infarm - Indoor Urban Farming Denmark ApS	
+cvrNumber: 40715746
+
+companyName: Ingleby Farms & Forests ApS	
+cvrNumber: 35868062
+
+companyName: International Flight Support 2020 ApS	
+cvrNumber: 41030194
+
+companyName: Inpay Services ApS	
+cvrNumber: 32318525
+
+companyName: Instabox Denmark ApS	
+cvrNumber: 40850732
+
+companyName: Institut for Menneskerettigheder	
+cvrNumber: 34481490
+
+companyName: Instrotec ApS	
+cvrNumber: 40876022
+
+companyName: Interacoustics A/S	
+cvrNumber: 15015446
+
+companyName: International Council for the Exploration of the Sea (ICES)	
+cvrNumber: 12063814
+
+companyName: International Rectifier HiRel Denmark ApS	
+cvrNumber: 27489524
+
+companyName: Itinera Denmark, filial af Itinera S.P.A., Italien	
+cvrNumber: 39756579
+
+companyName: Intomics A/S	
+cvrNumber: 31883962
+
+companyName: IO Interactive A/S	
+cvrNumber: 24216209
+
+companyName: Ipnordic A/S	
+cvrNumber: 33577591
+
+companyName: IPSOS A/S	
+cvrNumber: 14747788
+
+companyName: Iron & Ink Tattoo Studios ApS	
+cvrNumber: 36727527
+
+companyName: IRON PUMP A/S	
+cvrNumber: 62749318
+
+companyName: ISS World Services A/S	
+cvrNumber: 10161614
+
+companyName: ISSUU ApS	
+cvrNumber: 29831084
+
+companyName: ITERA ApS	
+cvrNumber: 21472271
+
+companyName: JAJA ARCHITECTS ApS	
+cvrNumber: 30594479
+
+companyName: Januar ApS	
+cvrNumber: 38891294
+
+companyName: Jens H. Hansen ApS	
+cvrNumber: 34088721
+
+companyName: JFM P/S	
+cvrNumber: 36503335
+
+companyName: JKS A/S	
+cvrNumber: 19687236
+
+companyName: Joe & the Juice A/S	
+cvrNumber: 26589355
+
+companyName: John Sisk & Son ApS	
+cvrNumber: 42703087
+
+companyName: JO Industries af 2019 ApS	
+cvrNumber: 40149538
+
+companyName: Jones Engineering Group Denmark ApS	
+cvrNumber: 38306278
+
+companyName: JSB Group A/S	
+cvrNumber: 34607109
+
+companyName: JTI Denmark A/S	
+cvrNumber: 28519958
+
+companyName: JYSK A/S	
+cvrNumber: 13590400
+
+companyName: Kalundborg Refinery A/S	
+cvrNumber: 29975884
+
+companyName: K&B Foodservice ApS	
+cvrNumber: 42322423
+
+companyName: K2 Management A/S	
+cvrNumber: 30812743
+
+companyName: KAMSTRUP A/S	
+cvrNumber: 21248118
+
+companyName: Karnov Group Denmark A/S	
+cvrNumber: 10361990
+
+companyName: Kassow Robots ApS	
+cvrNumber: 35033394
+
+companyName: Kereby ApS	
+cvrNumber: 38786326
+
+companyName: KEYMATE ApS	
+cvrNumber: 27257690
+
+companyName: KFT 1 ApS	
+cvrNumber: 38569872
+
+companyName: KIIN ApS	
+cvrNumber: 29603170
+
+companyName: Kiloo A/S	
+cvrNumber: 26429463
+
+companyName: KING'S BUFFET & RUNNING SUSHI ApS	
+cvrNumber: 35807470
+
+companyName: King Nails ApS	
+cvrNumber: 36983949
+
+companyName: King Running Sushi & Wok v/Jian Wang	
+cvrNumber: 34152896
+
+companyName: KMD A/S	
+cvrNumber: 26911745
+
+companyName: Knorr-Bremse Rail Systems Denmark ApS	
+cvrNumber: 41777583
+
+companyName: KNUD E. HANSEN A/S, NAVAL ARCHITECTS	
+cvrNumber: 21594873
+
+companyName: Kolding IF Fodbold ApS	
+cvrNumber: 39250330
+
+companyName: Kontrapunkt Group A/S	
+cvrNumber: 10179238
+
+companyName: KOPPERS DENMARK ApS	
+cvrNumber: 11000738
+
+companyName: Kosan Crisplant A/S	
+cvrNumber: 25690869
+
+companyName: KPMG Acor Tax Partnerselskab	
+cvrNumber: 34082200
+
+companyName: KPMG Statsautoriseret Revisionpartnerselskab	
+cvrNumber: 25578198
+
+companyName: Kraftvaerk A/S	
+cvrNumber: 27504639
+
+companyName: Kromann Reumert	
+cvrNumber: 62606711
+
+companyName: Kræftens Bekæmpelse	
+cvrNumber: 55629013
+
+companyName: Krüger A/S	
+cvrNumber: 57446412
+
+companyName: Kyndryl Danmark ApS	
+cvrNumber: 41988169
+
+companyName: Københavns Universitet	
+cvrNumber: 29979812
+
+companyName: Køge Hospital Project Team I/S	
+cvrNumber: 39588706
+
+companyName: Lactalis Danmark A/S	
+cvrNumber: 10106982
+
+companyName: Laerdal Copenhagen A/S	
+cvrNumber: 20087986
+
+companyName: Languagewire A/S	
+cvrNumber: 25567846
+
+companyName: Lantmännen Unibake Holding A/S	
+cvrNumber: 37249211
+
+companyName: Lauritzen Bulkers A/S	
+cvrNumber: 55700117
+
+companyName: LBN MEDICAL ApS	
+cvrNumber: 27098290
+
+companyName: LeadFamly ApS	
+cvrNumber: 36986476
+
+companyName: Leapwork A/S	
+cvrNumber: 36924225
+
+companyName: Learningbank A/S	
+cvrNumber: 32353606
+
+companyName: Lego Fonden	
+cvrNumber: 12458339
+
+companyName: LEGO HOUSE	
+cvrNumber: 16632635
+
+companyName: Lego System A/S	
+cvrNumber: 47458714
+
+companyName: LEGOLAND ApS	
+cvrNumber: 36887613
+
+companyName: Lenus eHealth ApS	
+cvrNumber: 38168495
+
+companyName: LEO Pharma A/S	
+cvrNumber: 56759514
+
+companyName: Letz Sushi ApS	
+cvrNumber: 10107423
+
+companyName: LINAK A/S	
+cvrNumber: 66365328
+
+companyName: Linkfire ApS	
+cvrNumber: 35835431
+
+companyName: Lin´s ApS	
+cvrNumber: 37785393
+
+companyName: LiqTech Ceramics A/S	
+cvrNumber: 41038071
+
+companyName: Little Green Pharma Denmark ApS	
+cvrNumber: 38947737
+
+companyName: Liveintent ApS	
+cvrNumber: 37234052
+
+companyName: Lloyd's Register EMEA	
+cvrNumber: 20646411
+
+companyName: LM Wind Power A/S	
+cvrNumber: 76490511
+
+companyName: Lobyco A/S	
+cvrNumber: 41480025
+
+companyName: Logic Artists ApS	
+cvrNumber: 33881797
+
+companyName: Logpoint A/S	
+cvrNumber: 26301939
+
+companyName: L'oréal Danmark A/S	
+cvrNumber: 70710218
+
+companyName: Louis Nielsen A/S	
+cvrNumber: 13613575
+
+companyName: Lucky Sushi v/ Xiaoying Wu	
+cvrNumber: 30379527
+
+companyName: Lunar Way A/S	
+cvrNumber: 36982837
+
+companyName: L&T TECHNOLOGY SERVICES DANMARK, FILIAL AF L&T TECHNOLOGY	
+cvrNumber: 35407405
+
+companyName: LTIMindtree Danmark, Filial af LTIMindtree Ltd Indien	
+cvrNumber: 29535809
+
+companyName: Lyngby Boldklub A/S	
+cvrNumber: 30616065
+
+companyName: MACARTNEY A/S	
+cvrNumber: 84164828
+
+companyName: Maersk Agency Denmark A/S	
+cvrNumber: 84097128
+
+companyName: Maersk Air Crew & Training Company A/S	
+cvrNumber: 43048856
+
+companyName: Maersk Supply Service A/S	
+cvrNumber: 31414377
+
+companyName: Maersk Tankers	
+cvrNumber: 28673590
+
+companyName: Malerfirmaet Petersen & Andersen A/S	
+cvrNumber: 16174602
+
+companyName: MAN Energy Solutions, filial af MAN Energy Solutions SE, TYSKLAND	
+cvrNumber: 31611792
+
+companyName: MAREL A/S	
+cvrNumber: 25013719
+
+companyName: Marel Salmon A/S	
+cvrNumber: 66309711
+
+companyName: Mars Danmark A/S	
+cvrNumber: 63203211
+
+companyName: Martin Bencher (Scandinavia) A/S	
+cvrNumber: 21199109
+
+companyName: Mastercard Payment Services Denmark A/S	
+cvrNumber: 40695869
+
+companyName: Mate.Bike International ApS	
+cvrNumber: 37934208
+
+companyName: Mazars Statsautoriseret Revisionspartnerselskab	
+cvrNumber: 31061741
+
+companyName: MB FOOD A/S	
+cvrNumber: 31766605
+
+companyName: McKinsey & Company Denmark P/S	
+cvrNumber: 32284671
+
+companyName: MDE Consultants, filial af MDE Consultants LTD, United Kingdom	
+cvrNumber: 40797181
+
+companyName: Mercury Engineering ApS	
+cvrNumber: 37369101
+
+companyName: Mermaid Medical A/S	
+cvrNumber: 27924492
+
+companyName: Meyers A/S	
+cvrNumber: 41810556
+
+companyName: MFT Energy A/S	
+cvrNumber: 38175130
+
+companyName: Microsoft Danmark ApS	
+cvrNumber: 13612870
+
+companyName: Microsoft Development Center Copenhagen ApS	
+cvrNumber: 76247218
+
+companyName: Mikkelsen Electronics A/S	
+cvrNumber: 15603712
+
+companyName: Milestone Systems A/S	
+cvrNumber: 20341130
+
+companyName: Miso Film ApS	
+cvrNumber: 28097417
+
+companyName: Mobile Industrial Robots A/S	
+cvrNumber: 35251235
+
+companyName: MobilePay A/S	
+cvrNumber: 26045231
+
+companyName: MobilePay Denmark A/S	
+cvrNumber: 38292188
+
+companyName: Moch A/S	
+cvrNumber: 25397096
+
+companyName: MOE A/S	
+cvrNumber: 64045628
+
+companyName: MOL Chemical Tankers Europe A/S	
+cvrNumber: 17952072
+
+companyName: Momondo A/S	
+cvrNumber: 20181397
+
+companyName: Monstarlab Denmark ApS	
+cvrNumber: 25080726
+
+companyName: Monta ApS	
+cvrNumber: 41668385
+
+companyName: MOOD ApS	
+cvrNumber: 35482679
+
+companyName: MOMENT A/S	
+cvrNumber: 25328949
+
+companyName: Motorola A/S	
+cvrNumber: 10290813
+
+companyName: MovieStarPlanet ApS	
+cvrNumber: 31269008
+
+companyName: Muehlhan A/S	
+cvrNumber: 26244218
+
+companyName: Muehlhan Wind Service A/S	
+cvrNumber: 38568183
+
+companyName: MultiQ Denmark A/S	
+cvrNumber: 25493877
+
+companyName: Muna Therapeutics ApS	
+cvrNumber: 41142871
+
+companyName: Munck Forsyningsledninger A/S	
+cvrNumber: 10977134
+
+companyName: MyDefence A/S	
+cvrNumber: 35530843
+
+companyName: National Oilwell Varco Denmark I/S	
+cvrNumber: 24255298
+
+companyName: Nails Gallery ApS	
+cvrNumber: 37553751
+
+companyName: Nationalt Genom Center	
+cvrNumber: 39851490
+
+companyName: NATURE ENERGY BIOGAS A/S	
+cvrNumber: 34614091
+
+companyName: NBE PRODUCTION A/S	
+cvrNumber: 34890323
+
+companyName: Nel Hydrogen A/S	
+cvrNumber: 26933048
+
+companyName: Nestlé Danmark A/S	
+cvrNumber: 38688928
+
+companyName: Netcompany A/S	
+cvrNumber: 14814833
+
+companyName: NETS Denmark A/S	
+cvrNumber: 20016175
+
+companyName: Neurons Inc. ApS	
+cvrNumber: 35205667
+
+companyName: Newsec Advisory A/S	
+cvrNumber: 32271316
+
+companyName: New Day Restaurants ApS	
+cvrNumber: 37345210
+
+companyName: Nexel A/S	
+cvrNumber: 20214414
+
+companyName: NGF Partnership K/S	
+cvrNumber: 39376989
+
+companyName: NH Bemanding ApS	
+cvrNumber: 38792334
+
+companyName: Niels Brock Copenhagen Business College	
+cvrNumber: 60798419
+
+companyName: NILFISK A/S	
+cvrNumber: 62572213
+
+companyName: NIL Technology ApS	
+cvrNumber: 29310203
+
+companyName: NKT CABLES GROUP A/S	
+cvrNumber: 15515872
+
+companyName: NKT (Denmark) A/S	
+cvrNumber: 25711548
+
+companyName: NKT Photonics A/S	
+cvrNumber: 10048265
+
+companyName: NLMK Dansteel A/S	
+cvrNumber: 10092922
+
+companyName: NNE A/S	
+cvrNumber: 13246009
+
+companyName: NNIT A/S	
+cvrNumber: 21093106
+
+companyName: NoA Connect A/S	
+cvrNumber: 40564039
+
+companyName: Noble Drilling A/S	
+cvrNumber: 32673821
+
+companyName: Noble Resources Limited	
+cvrNumber: 35430172
+
+companyName: Nokia Denmark A/S	
+cvrNumber: 13680531
+
+companyName: Noma af 2003 ApS	
+cvrNumber: 27394698
+
+companyName: NORDBO ROBOTICS A/S	
+cvrNumber: 34697728
+
+companyName: Nordea Danmark, Filial af Nordea Bank Abp, Finland	
+cvrNumber: 25992180
+
+companyName: NORDEA INVESTMENT MANAGEMENT AB	
+cvrNumber: 28715560
+
+companyName: Nordgreen ApS	
+cvrNumber: 38694243
+
+companyName: Nordic RCC A/S	
+cvrNumber: 42882585
+
+companyName: NORDIC RENTALS A/S	
+cvrNumber: 32893430
+
+companyName: Nordisk Film Shortcut A/S	
+cvrNumber: 16312304
+
+companyName: NORDISK SVEJSE KONTROL A/S	
+cvrNumber: 25595831
+
+companyName: Nordlux A/S	
+cvrNumber: 10216990
+
+companyName: Norlys Energy Trading A/S	
+cvrNumber: 41419849
+
+companyName: Northern Partners ApS	
+cvrNumber: 39608723
+
+companyName: Northern Partners Contracting ApS	
+cvrNumber: 43152157
+
+companyName: NorSea Denmark A/S	
+cvrNumber: 49677715
+
+companyName: Novenco Marine & Offshore A/S	
+cvrNumber: 33785682
+
+companyName: Novicell ApS	
+cvrNumber: 20297743
+
+companyName: Novo Holdings A/S	
+cvrNumber: 24257630
+
+companyName: Novo Nordisk A/S	
+cvrNumber: 24256790
+
+companyName: Novo Nordisk Fonden	
+cvrNumber: 10582989
+
+companyName: Novo Nordisk Denmark A/S	
+cvrNumber: 38180045
+
+companyName: Novozymes A/S	
+cvrNumber: 10007127
+
+companyName: NREP A/S	
+cvrNumber: 29168709
+
+companyName: NRT-Nordisk Røntgen Teknik A/S	
+cvrNumber: 26132649
+
+companyName: NTT DATA Business Solutions A/S	
+cvrNumber: 26901448
+
+companyName: Nuuday A/S	
+cvrNumber: 40075291
+
+companyName: Næstved Boldklub A/S	
+cvrNumber: 10478006
+
+companyName: Nørrebro Apotek v/Majid Sairafianpour	
+cvrNumber: 32164889
+
+companyName: Oaxaca Group ApS	
+cvrNumber: 36917555
+
+companyName: Ocean ApS	
+cvrNumber: 38556746
+
+companyName: Odense Hospital Project Team Joint Venture I/S	
+cvrNumber: 39302675
+
+companyName: Odense Sport & Event A/S	
+cvrNumber: 71172112
+
+companyName: Offshore Helicopter Services Denmark A/S	
+cvrNumber: 41526211
+
+companyName: OILFIELD SOLUTIONS ApS	
+cvrNumber: 31613027
+
+companyName: Omada Services A/S	
+cvrNumber: 28133618
+
+companyName: Omnidocs A/S	
+cvrNumber: 35679529
+
+companyName: One.com A/S	
+cvrNumber: 28677138
+
+companyName: ONNEC Denmark ApS	
+cvrNumber: 38724290
+
+companyName: OnRobot A/S	
+cvrNumber: 36492449
+
+companyName: Orana Denmark A/S	
+cvrNumber: 38300288
+
+companyName: Orbital Express Launch ApS	
+cvrNumber: 38106260
+
+companyName: Oticon A/S	
+cvrNumber: 42334219
+
+companyName: OTIS A/S	
+cvrNumber: 32349110
+
+companyName: Ove Arup & Partners Danmark A/S	
+cvrNumber: 18530775
+
+companyName: Oxfam IBIS	
+cvrNumber: 88136411
+
+companyName: OXYMAT A/S	
+cvrNumber: 25281675
+
+companyName: Pandora A/S	
+cvrNumber: 28505116
+
+companyName: Pandora Int. ApS	
+cvrNumber: 21410276
+
+companyName: Parken Sport & Entertainment A/S	
+cvrNumber: 15107707
+
+companyName: Penni ApS	
+cvrNumber: 38164295
+
+companyName: Penneo ApS	
+cvrNumber: 35633766
+
+companyName: Persequor ApS	
+cvrNumber: 38102907
+
+companyName: Per Aarsleff A/S	
+cvrNumber: 37542784
+
+companyName: PFP A/S	
+cvrNumber: 10010691
+
+companyName: Philip Morris ApS	
+cvrNumber: 25797922
+
+companyName: Philips Danmark A/S	
+cvrNumber: 43253018
+
+companyName: Phillips-Medisize A/S	
+cvrNumber: 24053415
+
+companyName: Pho Hanoi ApS	
+cvrNumber: 43360418
+
+companyName: Phoenix X A/S	
+cvrNumber: 43268570
+
+companyName: Pierre.dk Autolakering A/S	
+cvrNumber: 15000295
+
+companyName: Piscibus ApS	
+cvrNumber: 43559842
+
+companyName: Planday A/S	
+cvrNumber: 27666248
+
+companyName: Plant Supervision Denmark ApS	
+cvrNumber: 37437212
+
+companyName: Playdead ApS	
+cvrNumber: 30522192
+
+companyName: Pleo Technologies ApS	
+cvrNumber: 36538686
+
+companyName: PLH ARKITEKTER A/S	
+cvrNumber: 27919502
+
+companyName: Podimo ApS	
+cvrNumber: 40447024
+
+companyName: POPL Burger ApS	
+cvrNumber: 37427519
+
+companyName: Post Danmark A/S	
+cvrNumber: 26663903
+
+companyName: Powermart ApS	
+cvrNumber: 36201770
+
+companyName: P.P. BROLÆGNING A/S	
+cvrNumber: 13959684
+
+companyName: Presafe Denmark A/S	
+cvrNumber: 34080771
+
+companyName: PRICEWATERHOUSECOOPERS STATSAUTORISERET REVISIONSPARTNERSELSKAB	
+cvrNumber: 33771231
+
+companyName: PROJECTUM ApS	
+cvrNumber: 27583598
+
+companyName: Proper ApS	
+cvrNumber: 39016869
+
+companyName: Publicis Denmark A/S	
+cvrNumber: 25298977
+
+companyName: Qiagen Aarhus A/S	
+cvrNumber: 28305087
+
+companyName: Qualiware ApS	
+cvrNumber: 30731557
+
+companyName: Queue-IT ApS	
+cvrNumber: 33052901
+
+companyName: Radiometer Medical ApS	
+cvrNumber: 27509185
+
+companyName: Rambøll Arkitekter A/S	
+cvrNumber: 41904070
+
+companyName: Rambøll Danmark A/S	
+cvrNumber: 35128417
+
+companyName: Rambøll Gruppen A/S	
+cvrNumber: 10160669
+
+companyName: Rambøll Management Consulting A/S	
+cvrNumber: 60997918
+
+companyName: Ramos Ferreira Danmark ApS	
+cvrNumber: 38619276
+
+companyName: Randers FC A/S	
+cvrNumber: 83940816
+
+companyName: Randstad A/S	
+cvrNumber: 25050541
+
+companyName: Raw Power Games ApS	
+cvrNumber: 41456841
+
+companyName: RDT Ingeniører ApS	
+cvrNumber: 39519348
+
+companyName: Space10 ApS	
+cvrNumber: 36692235
+
+companyName: Red Associates A/S	
+cvrNumber: 28325290
+
+companyName: Red Barnet	
+cvrNumber: 63407216
+
+companyName: Rederiet A. P. Møller A/S	
+cvrNumber: 37048119
+
+companyName: RedFin Contracting Solutions ApS	
+cvrNumber: 41478810
+
+companyName: Region Hovedstaden	
+cvrNumber: 29190623
+
+companyName: Region Midtjylland	
+cvrNumber: 29190925
+
+companyName: Region Syddanmark	
+cvrNumber: 29190909
+
+companyName: Relæ ApS	
+cvrNumber: 32669182
+
+companyName: Renlig.dk ApS	
+cvrNumber: 41050241
+
+companyName: RESOLUX ApS	
+cvrNumber: 27180663
+
+companyName: Rizzani de Eccher Denmark, filial af Rizzani de Eccher S.p.A., Italy	
+cvrNumber: 38099817
+
+companyName: Robert Bosch A/S	
+cvrNumber: 55112819
+
+companyName: Roche A/S. Medicinalvarer & Kemikalier	
+cvrNumber: 25230515
+
+companyName: ROCKWOOL Danmark A/S	
+cvrNumber: 42391719
+
+companyName: Rockwool International A/S	
+cvrNumber: 54879415
+
+companyName: Roku Denmark ApS	
+cvrNumber: 35842705
+
+companyName: ROSAN BOSCH ApS	
+cvrNumber: 33393237
+
+companyName: Roskilde Universitet	
+cvrNumber: 29057559
+
+companyName: Rovio Copenhagen ApS	
+cvrNumber: 38831976
+
+companyName: RWE Renewables Denmark A/S	
+cvrNumber: 41762713
+
+companyName: Røde Kors	
+cvrNumber: 20700211
+
+companyName: S/I Icars	
+cvrNumber: 42047007
+
+companyName: SAMSUNG DENMARK RESEARCH CENTER ApS	
+cvrNumber: 34703019
+
+companyName: Samsung Electronics, Filial af Samsung Electronics Nordic AB, Sverige	
+cvrNumber: 27110274
+
+companyName: Sandoz A/S	
+cvrNumber: 27744532
+
+companyName: SAP Danmark A/S	
+cvrNumber: 11935680
+
+companyName: Satair A/S	
+cvrNumber: 78419717
+
+companyName: Savara ApS	
+cvrNumber: 37643459
+
+companyName: Saxo Bank A/S	
+cvrNumber: 15731249
+
+companyName: SCADA INTERNATIONAL A/S	
+cvrNumber: 29526443
+
+companyName: Scalepoint Technologies Denmark A/S	
+cvrNumber: 38307347
+
+companyName: Scan Facility Service ApS	
+cvrNumber: 36736941
+
+companyName: Scandinavian Tobacco Group A/S	
+cvrNumber: 31080185
+
+companyName: SCANMETALS A/S	
+cvrNumber: 26801958
+
+companyName: Schibsted Denmark ApS	
+cvrNumber: 20618175
+
+companyName: Schmidt Hammer Lassen Architects K/S	
+cvrNumber: 20728132
+
+companyName: Schlumberger Danmark A/S	
+cvrNumber: 17371444
+
+companyName: Schneider Electric Danmark A/S	
+cvrNumber: 70698714
+
+companyName: Schneider Electric It Denmark ApS	
+cvrNumber: 14320148
+
+companyName: SCHOU ABSOLUTE HORSES A/S	
+cvrNumber: 30069579
+
+companyName: Seaborg ApS	
+cvrNumber: 37859087
+
+companyName: SEASIGHT DAVITS A/S	
+cvrNumber: 33879253
+
+companyName: Semco Maritime A/S	
+cvrNumber: 25490762
+
+companyName: SH Group A/S	
+cvrNumber: 12762704
+
+companyName: Shape A/S	
+cvrNumber: 33039468
+
+companyName: Shape Core ApS	
+cvrNumber: 42396028
+
+companyName: Shortcut Danmark A/S	
+cvrNumber: 33385315
+
+companyName: Shure Scandinavia A/S	
+cvrNumber: 12566301
+
+companyName: Siemens Aktieselskab	
+cvrNumber: 16993085
+
+companyName: Siemens Industry Software A/S	
+cvrNumber: 31257077
+
+companyName: SiemensGamesa Renewable Energy A/S	
+cvrNumber: 76486212
+
+companyName: Silicom Denmark A/S	
+cvrNumber: 31301270
+
+companyName: SIMCORP A/S	
+cvrNumber: 15505281
+
+companyName: Sindico Group A/S	
+cvrNumber: 32347215
+
+companyName: Siteimprove A/S	
+cvrNumber: 25537017
+
+companyName: SLAGELSE LIFTUDLEJNING ApS	
+cvrNumber: 65438313
+
+companyName: Slipgate Ironworks ApS	
+cvrNumber: 38541161
+
+companyName: SNIPR Biome ApS	
+cvrNumber: 38871277
+
+companyName: Snaptun Frysehus A/S	
+cvrNumber: 38046543
+
+companyName: Softpay ApS	
+cvrNumber: 41352272
+
+companyName: Soho House Copenhagen ApS	
+cvrNumber: 42882410
+
+companyName: Solar A/S	
+cvrNumber: 15908416
+
+companyName: Sony Nordic Denmark, filial af Sony Europe B.V. NL	
+cvrNumber: 39932687
+
+companyName: Sopra Steria A/S	
+cvrNumber: 20621117
+
+companyName: Soundboks ApS	
+cvrNumber: 36457597
+
+companyName: SPIE Energy Danmark ApS	
+cvrNumber: 43295284
+
+companyName: Sportmaster Danmark ApS	
+cvrNumber: 34479526
+
+companyName: SPRING Production A/S	
+cvrNumber: 12545983
+
+companyName: SPX Flow Technology Danmark A/S	
+cvrNumber: 24730018
+
+companyName: SSI Schäfer A/S	
+cvrNumber: 30988256
+
+companyName: STANLEY BLACK & DECKER, DANSK FILIAL AF BLACK & DECKER (OVERSEAS) GMBH, LIECHTENSTEIN	
+cvrNumber: 75634811
+
+companyName: Statens Serum Institut SSI	
+cvrNumber: 46837428
+
+companyName: Stauning Whisky A/S	
+cvrNumber: 30900863
+
+companyName: Stibo Systems A/S	
+cvrNumber: 35822690
+
+companyName: Sticks 'N' Sushi A/S	
+cvrNumber: 73342619
+
+companyName: Stiesdal Offshore Technologies A/S	
+cvrNumber: 38585118
+
+companyName: Stim Tugs, LLC	
+cvrNumber: 37721492
+
+companyName: Storstroem Bridge Joint Venture I/S	
+cvrNumber: 39387166
+
+companyName: STRUERS ApS	
+cvrNumber: 15683309
+
+companyName: Studies&Me A/S	
+cvrNumber: 41600020
+
+companyName: Suir Engineering ApS	
+cvrNumber: 39960575
+
+companyName: Sund og Bælt Holding A/S	
+cvrNumber: 15694688
+
+companyName: Sunrise TcTa A/S	
+cvrNumber: 18458004
+
+companyName: Superb ApS	
+cvrNumber: 39478021
+
+companyName: Superior Renewables A/S	
+cvrNumber: 41122463
+
+companyName: SushiMania ApS	
+cvrNumber: 36019190
+
+companyName: Svend Hoyer A/S	
+cvrNumber: 17630695
+
+companyName: Sweco Danmark A/S	
+cvrNumber: 48233511
+
+companyName: Swire Energy Services A/S	
+cvrNumber: 36445874
+
+companyName: SYBO ApS	
+cvrNumber: 33858183
+
+companyName: Synergy Denmark A/S	
+cvrNumber: 42583588
+
+companyName: Synopsys Denmark ApS	
+cvrNumber: 25600568
+
+companyName: Systematic A/S	
+cvrNumber: 78834412
+
+companyName: Sønderjyske Fodbold A/S	
+cvrNumber: 31588111
+
+companyName: S/I International School of Hellerup	
+cvrNumber: 32035884
+
+companyName: T-Systems Nordic A/S	
+cvrNumber: 14815244
+
+companyName: Tactile R&D ApS	
+cvrNumber: 34050090
+
+companyName: Tailor Shaped ApS	
+cvrNumber: 34732590
+
+companyName: TATA Consultancy Services Ltd.	
+cvrNumber: 28115938
+
+companyName: Tatami ApS	
+cvrNumber: 42705543
+
+companyName: TDC A/S	
+cvrNumber: 14773908
+
+companyName: TDC NET A/S	
+cvrNumber: 40075267
+
+companyName: team.blue Denmark A/S	
+cvrNumber: 29412006
+
+companyName: Tech Collective Cyber Tech Services A/S	
+cvrNumber: 42868094
+
+companyName: Tech Collective System Impact A/S	
+cvrNumber: 42154156
+
+companyName: Tech Collective Test & DevOps A/S	
+cvrNumber: 42433845
+
+companyName: Tech Mahindra Filial af Tech Mahindra Limited, Indien	
+cvrNumber: 29182361
+
+companyName: Tekno Fire ApS	
+cvrNumber: 40671234
+
+companyName: Templafy ApS	
+cvrNumber: 25662946
+
+companyName: Teradata Danmark ApS	
+cvrNumber: 30245326
+
+companyName: Terma A/S	
+cvrNumber: 41881828
+
+companyName: Termovision ApS	
+cvrNumber: 33581297
+
+companyName: Tetra Pharm Technologies ApS	
+cvrNumber: 40738223
+
+companyName: Thai Airways International	
+cvrNumber: 14106928
+
+companyName: Thales DIS Danmark A/S	
+cvrNumber: 16882194
+
+companyName: The Boston Consulting Group Nordic	
+cvrNumber: 30825837
+
+companyName: The International School of Billund	
+cvrNumber: 34763356
+
+companyName: Thrane og Thrane A/S	
+cvrNumber: 65724618
+
+companyName: Tieto Denmark A/S	
+cvrNumber: 25680480
+
+companyName: Tinytots International Preschool Aps	
+cvrNumber: 36933429
+
+companyName: Too Good To Go ApS	
+cvrNumber: 37561304
+
+companyName: Torm A/S	
+cvrNumber: 22460218
+
+companyName: TotalEnergies EP Danmark A/S	
+cvrNumber: 22757318
+
+companyName: Total Upstream Danmark A/S	
+cvrNumber: 39403706
+
+companyName: TO ØL ApS	
+cvrNumber: 33882254
+
+companyName: Trackman A/S	
+cvrNumber: 27352677
+
+companyName: Trademark Textiles A/S	
+cvrNumber: 27521800
+
+companyName: Tradeshift ApS	
+cvrNumber: 35391282
+
+companyName: Translog Denmark ApS	
+cvrNumber: 39139677
+
+companyName: TRAVCAFEEN KØBENHAVN ApS	
+cvrNumber: 27441270
+
+companyName: Travel Operations A/S	
+cvrNumber: 38707701
+
+companyName: Trustpilot A/S	
+cvrNumber: 30276582
+
+companyName: Tryg Forsikring A/S	
+cvrNumber: 24260666
+
+companyName: Tryghedsgruppen SMBA	
+cvrNumber: 10430410
+
+companyName: TUNN3L JV I/S	
+cvrNumber: 39173085
+
+companyName: Turf Tank ApS	
+cvrNumber: 36722436
+
+companyName: TwentyThree ApS	
+cvrNumber: 30070860
+
+companyName: Tømrermester Jim Jensen A/S	
+cvrNumber: 15329874
+
+companyName: Uber Denmark Software and Development ApS	
+cvrNumber: 34900469
+
+companyName: Ultrabulk A/S	
+cvrNumber: 38283715
+
+companyName: Ultranav Business Support ApS	
+cvrNumber: 25112768
+
+companyName: Ultraship ApS	
+cvrNumber: 32333923
+
+companyName: UMBRACO A/S	
+cvrNumber: 35866582
+
+companyName: Umicore Denmark ApS	
+cvrNumber: 38892304
+
+companyName: Unicontrol ApS	
+cvrNumber: 40101578
+
+companyName: uniqKey A/S	
+cvrNumber: 39004127
+
+companyName: Unity Technologies ApS	
+cvrNumber: 30719913
+
+companyName: Universal Robots A/S	
+cvrNumber: 29138060
+
+companyName: Unomedical A/S	
+cvrNumber: 64153315
+
+companyName: Unwire ApS	
+cvrNumber: 33640773
+
+companyName: USERTRIBE A/S	
+cvrNumber: 33510608
+
+companyName: Valcon A/S	
+cvrNumber: 25254090
+
+companyName: Valtech A/S	
+cvrNumber: 25293606
+
+companyName: Vantage Support Group ApS	
+cvrNumber: 38905090
+
+companyName: Vattenfall A/S	
+cvrNumber: 21311332
+
+companyName: Vattenfall Vindkraft A/S	
+cvrNumber: 31597544
+
+companyName: VB Alliancen A/S	
+cvrNumber: 31085179
+
+companyName: Velux A/S	
+cvrNumber: 30003519
+
+companyName: Veo Technologies ApS	
+cvrNumber: 37240834
+
+companyName: Vertic A/S	
+cvrNumber: 25514041
+
+companyName: Vestas Development A/S	
+cvrNumber: 41058919
+
+companyName: Vestas Manufacturing A/S	
+cvrNumber: 27988210
+
+companyName: Vestas Northern Europe A/S	
+cvrNumber: 28118171
+
+companyName: Vestas Wind systems A/S	
+cvrNumber: 10403782
+
+companyName: VESTJYSK INDUSTRILAKERING A/S. SKJERN	
+cvrNumber: 57372710
+
+companyName: Viborg F.F. Prof. Fodbold A/S	
+cvrNumber: 83073713
+
+companyName: Vikingbus Danmark A/S	
+cvrNumber: 33758006
+
+companyName: VIKING LIFE-SAVING EQUIPMENT A/S	
+cvrNumber: 15016213
+
+companyName: Viktech P/S	
+cvrNumber: 34046603
+
+companyName: Vila A/S	
+cvrNumber: 67756819
+
+companyName: Vipps MobilePay, filial af Vipps MobilePay AS, Norge	
+cvrNumber: 43300946
+
+companyName: Visiopharm A/S	
+cvrNumber: 26186676
+
+companyName: Visma e-conomic A/S	
+cvrNumber: 29403473
+
+companyName: Vivaldi Gruppen A/S	
+cvrNumber: 27231802
+
+companyName: Vivino ApS	
+cvrNumber: 32081193
+
+companyName: VKR Holding A/S	
+cvrNumber: 30830415
+
+companyName: VLRS GRP A/S	
+cvrNumber: 25797620
+
+companyName: VMS Group A/S	
+cvrNumber: 27215629
+
+companyName: Wasabi Sushi Aalborg ApS	
+cvrNumber: 36060301
+
+companyName: Weatherford Danmark A/S	
+cvrNumber: 32832601
+
+companyName: Wellperform ApS	
+cvrNumber: 34583781
+
+companyName: WELLTEC A/S	
+cvrNumber: 13478805
+
+companyName: WEPLY A/S	
+cvrNumber: 35414800
+
+companyName: Widex A/S	
+cvrNumber: 15771100
+
+companyName: Wipro Technologies	
+cvrNumber: 27316239
+
+companyName: WithSecure A/S	
+cvrNumber: 32559409
+
+companyName: Wok Shop ApS	
+cvrNumber: 25362225
+
+companyName: Wolters Kluwer Danmark A/S	
+cvrNumber: 13386293
+
+companyName: Workandco Digitalt Produktdesign ApS	
+cvrNumber: 40194681
+
+companyName: Workday Denmark ApS	
+cvrNumber: 36424141
+
+companyName: Worksome ApS	
+cvrNumber: 37990485
+
+companyName: Wrist Ship Supply A/S	
+cvrNumber: 19272796
+
+companyName: WSP Danmark A/S	
+cvrNumber: 21265543
+
+companyName: Wunderman A/S	
+cvrNumber: 33971419
+
+companyName: Xellia Pharmaceuticals ApS	
+cvrNumber: 61094628
+
+companyName: XO SHIPPING A/S	
+cvrNumber: 33080212
+
+companyName: Yaki Sushi ApS	
+cvrNumber: 37061042
+
+companyName: Yavica ApS	
+cvrNumber: 38679619
+
+companyName: Yggdrasil Commodities	
+cvrNumber: 40300643
+
+companyName: Zealand Pharma A/S	
+cvrNumber: 20045078
+
+companyName: Zebra A/S	
+cvrNumber: 15690488
+
+companyName: Zendesk ApS	
+cvrNumber: 30801830
+
+companyName: ZeroNorth A/S	
+cvrNumber: 41052236
+
+companyName: Zoetis Denmark ApS	
+cvrNumber: 10019265
+
+companyName: Züblin A/S	
+cvrNumber: 26428424
+
+companyName: Ørsted Bioenergy & Thermal Power A/S	
+cvrNumber: 27446469
+
+companyName: Ørsted Services A/S	
+cvrNumber: 27446485
+
+companyName: Ørsted Wind Power A/S	
+cvrNumber: 31849292
+
+companyName: Østerbro Teater S/I	
+cvrNumber: 16213098
+
+companyName: Østerlykke ApS	
+cvrNumber: 37320579
+
+companyName: Aalborg Boldspilklub A/S	
+cvrNumber: 10998530
+
+companyName: Aalborg Håndbold A/S	
+cvrNumber: 33372558
+
+companyName: Aalborg Portland A/S	
+cvrNumber: 36428112
+
+companyName: Aalborg Portland Holding A/S	
+cvrNumber: 14244441
+
+companyName: AALBORG SYMFONIORKESTER	
+cvrNumber: 44400014
+
+companyName: Aalborg Universitet	
+cvrNumber: 29102384
+
+companyName: Aarhus Universitet	
+cvrNumber: 31119103
+
+companyName: AARSLEFF RAIL A/S	
+cvrNumber: 32282296
