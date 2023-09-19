@@ -1,2 +1,6 @@
 .env
 **/.env
+
+**/bootstrap
+
+**/*.zip

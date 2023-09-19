@@ -2,21 +2,24 @@ package main
 
 import (
 	"log"
+	"os"
+	"path"
 	"siri-certified-api/companies"
 
 	"github.com/aws/aws-lambda-go/lambda"
 )
 
-func handler() (*companies.Company, error) {
+func handler() ([]companies.Company, error) {
 	log.Println("Hello from companies lambda")
+	lambdaDir := os.Getenv("LAMBDA_TASK_ROOT")
+	jsonFilePath := path.Join(lambdaDir, "company-data.json")
 
-	company := &companies.Company{
-		Title:     "Hello World Corp",
-		Link:      "https://www.helloworld.com",
-		CVRNumber: "1814569",
+	c, err := companies.GetCompanies(jsonFilePath)
+	if err != nil {
+		return []companies.Company{}, err
 	}
 
-	return company, nil
+	return c, nil
 }
 
 func main() {
