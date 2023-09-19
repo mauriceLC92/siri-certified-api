@@ -14,8 +14,8 @@ type Company struct {
 
 // Parse reads data from the filePath provided and attempts to return a slice of companies if they exist.
 // if none exist, an empty slice of companies is returned instead.
-func Parse(path string) ([]Company, error) {
-	data, err := os.ReadFile(path)
+func Parse(filePath string) ([]Company, error) {
+	data, err := os.ReadFile(filePath)
 	if err != nil {
 		return []Company{}, err
 	}

@@ -4,8 +4,8 @@ infra:
 destroy:
 	cd infrastructure && pulumi destroy --stack dev --yes
 
-build:
-	cd handler && GOARCH=arm64 GOOS=linux go build -o bootstrap main.go
+build-companies:
+	cd handlers/companies && GOARCH=arm64 GOOS=linux go build -o bootstrap main.go
 
-zip:
-	cd handler && zip myFunction.zip bootstrap
+zip-companies:
+	cd handlers/companies && zip companies.zip bootstrap

@@ -1,7 +1,6 @@
 package main
 
 import (
-	"github.com/pulumi/pulumi-aws/sdk/v6/go/aws/cloudwatch"
 	"github.com/pulumi/pulumi-aws/sdk/v6/go/aws/dynamodb"
 	"github.com/pulumi/pulumi-aws/sdk/v6/go/aws/iam"
 	"github.com/pulumi/pulumi-aws/sdk/v6/go/aws/lambda"
@@ -105,34 +104,17 @@ func main() {
 
 		// The following works as is if you build the bootstrap binary first and then zip it
 		// AWS Lambda function
-		itemFunction, err := lambda.NewFunction(ctx, "itemFunction", &lambda.FunctionArgs{
+		_, err = lambda.NewFunction(ctx, "companiesFunction", &lambda.FunctionArgs{
 			// Code: pulumi.NewAssetArchive(map[string]interface{}{
 			// 	"folder": pulumi.NewFileArchive("./handler"),
 			// }),
-			Code:          pulumi.NewFileArchive("../handler/myFunction.zip"),
+			Code:          pulumi.NewFileArchive("../handlers/companies/companies.zip"),
 			Handler:       pulumi.String("bootstrap"),
 			Runtime:       pulumi.String("provided.al2"),
 			Role:          role.Arn,
 			Architectures: pulumi.ToStringArray([]string{"arm64"}),
 			Timeout:       pulumi.Int(300),
 			MemorySize:    pulumi.Int(128),
-		})
-		if err != nil {
-			return err
-		}
-
-		// CloudWatch event rule for monthly execution
-		rule, err := cloudwatch.NewEventRule(ctx, "monthlyRule", &cloudwatch.EventRuleArgs{
-			ScheduleExpression: pulumi.String("cron(0 12 1 * ? *)"),
-		})
-		if err != nil {
-			return err
-		}
-
-		// CloudWatch event target for the lambda function
-		_, err = cloudwatch.NewEventTarget(ctx, "monthlyTarget", &cloudwatch.EventTargetArgs{
-			Arn:  itemFunction.Arn,
-			Rule: rule.Name,
 		})
 		if err != nil {
 			return err
