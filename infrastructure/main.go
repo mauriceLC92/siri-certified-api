@@ -124,6 +124,13 @@ func main() {
 		ctx.Export("role", role.Arn)
 		ctx.Export("table", table.Arn)
 
+		// Cognito
+		userPool, err := createCognitoPool(ctx)
+		if err != nil {
+			return err
+		}
+		ctx.Export("userPoolArn", userPool.Arn)
+
 		return nil
 	})
 }
