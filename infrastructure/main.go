@@ -110,7 +110,7 @@ func main() {
 			// }),
 			Code:          pulumi.NewFileArchive("../handlers/companies/companies.zip"),
 			Handler:       pulumi.String("bootstrap"),
-			Runtime:       pulumi.String("provided.al2"),
+			Runtime:       lambda.RuntimeCustomAL2,
 			Role:          role.Arn,
 			Architectures: pulumi.ToStringArray([]string{"arm64"}),
 			Timeout:       pulumi.Int(300),
@@ -124,12 +124,19 @@ func main() {
 		ctx.Export("role", role.Arn)
 		ctx.Export("table", table.Arn)
 
-		// Cognito
+		// Cognito User Pool
 		userPool, err := createCognitoPool(ctx)
 		if err != nil {
 			return err
 		}
+		// Cognito User Pool Client
+		userPoolClient, err := createCognitoPoolClient(ctx, userPool)
+		if err != nil {
+			return err
+		}
+
 		ctx.Export("userPoolArn", userPool.Arn)
+		ctx.Export("userPoolClient ID", userPoolClient.ID())
 
 		return nil
 	})
