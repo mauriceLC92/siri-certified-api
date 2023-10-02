@@ -33,6 +33,7 @@ func createCognitoPoolClient(ctx *pulumi.Context, userPool *cognito.UserPool) (*
 		ExplicitAuthFlows:          pulumi.ToStringArray([]string{"ALLOW_USER_PASSWORD_AUTH", "ALLOW_REFRESH_TOKEN_AUTH", "ALLOW_ADMIN_USER_PASSWORD_AUTH"}),
 		PreventUserExistenceErrors: pulumi.String("ENABLED"),
 	})
+
 	if err != nil {
 		return &cognito.UserPoolClient{}, err
 	}
