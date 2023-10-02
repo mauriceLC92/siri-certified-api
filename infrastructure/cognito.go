@@ -23,16 +23,20 @@ func createCognitoPool(ctx *pulumi.Context) (*cognito.UserPool, error) {
 		return &cognito.UserPool{}, err
 	}
 
-	// Use to create the app clients
-	_, err = cognito.NewUserPoolClient(ctx, "client-maurice", &cognito.UserPoolClientArgs{
+	return userPool, nil
+}
+
+func createCognitoPoolClient(ctx *pulumi.Context, userPool *cognito.UserPool) (*cognito.UserPoolClient, error) {
+	userPoolClient, err := cognito.NewUserPoolClient(ctx, "client-maurice", &cognito.UserPoolClientArgs{
 		UserPoolId:                 userPool.ID(),
 		EnableTokenRevocation:      pulumi.Bool(true),
 		ExplicitAuthFlows:          pulumi.ToStringArray([]string{"ALLOW_USER_PASSWORD_AUTH", "ALLOW_REFRESH_TOKEN_AUTH", "ALLOW_ADMIN_USER_PASSWORD_AUTH"}),
 		PreventUserExistenceErrors: pulumi.String("ENABLED"),
 	})
+
 	if err != nil {
-		return &cognito.UserPool{}, err
+		return &cognito.UserPoolClient{}, err
 	}
 
-	return userPool, nil
+	return userPoolClient, nil
 }
