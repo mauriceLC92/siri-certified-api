@@ -87,6 +87,7 @@ func main() {
 
 		// Create a custom policy to allow writing logs to CloudWatch
 		cwPpolicy, err := iam.NewPolicy(ctx, "cloudWatchLogWritePolicy", &iam.PolicyArgs{
+			// TODO - update the Resource to limit it by region and account: `"arn:aws:logs:REGION:ACCOUNT_ID:*"`
 			Description: pulumi.String("Allow writing logs to CloudWatch"),
 			Policy: pulumi.String(`{
 						"Version": "2012-10-17",
@@ -137,45 +138,17 @@ func main() {
 		ctx.Export("userPoolArn", userPool.Arn)
 		ctx.Export("userPoolClient ID", userPoolClient.ID())
 
+		usersLambda, err := createLambda(ctx, CreateLambda{functionName: "usersFunction", archivePath: "../handlers/users/users.zip", role: lambdaRole})
+		if err != nil {
+			return err
+		}
+
+		dummyLambda, err := createLambda(ctx, CreateLambda{functionName: "usersFunction", archivePath: "../handlers/dummy/dummy.zip", role: lambdaRole})
+		if err != nil {
+			return err
+		}
+
 		// All things API gateway related
-
-		usersLambda, err := lambda.NewFunction(ctx, "usersFunction", &lambda.FunctionArgs{
-			// Code: pulumi.NewAssetArchive(map[string]interface{}{
-			// 	"folder": pulumi.NewFileArchive("./handler"),
-			// }),
-			Code:          pulumi.NewFileArchive("../handlers/users/users.zip"),
-			Handler:       pulumi.String("bootstrap"),
-			Runtime:       lambda.RuntimeCustomAL2,
-			Role:          lambdaRole.Arn,
-			Architectures: pulumi.ToStringArray([]string{"arm64"}),
-			Timeout:       pulumi.Int(300),
-			MemorySize:    pulumi.Int(128),
-		})
-		if err != nil {
-			return err
-		}
-
-		dummyLambda, err := lambda.NewFunction(ctx, "dummyFunction", &lambda.FunctionArgs{
-			// Code: pulumi.NewAssetArchive(map[string]interface{}{
-			// 	"folder": pulumi.NewFileArchive("./handler"),
-			// }),
-			Code:          pulumi.NewFileArchive("../handlers/dummy/dummy.zip"),
-			Handler:       pulumi.String("bootstrap"),
-			Runtime:       lambda.RuntimeCustomAL2,
-			Role:          lambdaRole.Arn,
-			Architectures: pulumi.ToStringArray([]string{"arm64"}),
-			Timeout:       pulumi.Int(300),
-			MemorySize:    pulumi.Int(128),
-		})
-		if err != nil {
-			return err
-		}
-
-		// // Create a CloudWatch Log Group
-		// logGroup, err := cloudwatch.NewLogGroup(ctx, "myLogGroup", nil)
-		// if err != nil {
-		// 	return err
-		// }
 
 		api, err := apigatewayv2.NewApi(ctx, "users-api", &apigatewayv2.ApiArgs{
 			ProtocolType: pulumi.String("HTTP"),
@@ -308,3 +281,8 @@ func main() {
 		return nil
 	})
 }
+
+// Next steps
+// Create a user in the user pool - manually
+// Create a log in function which logs a customer in and returns the token
+// Use that token to access the /users route and see if it lets me in, if yes, I now have a functioning Auth system

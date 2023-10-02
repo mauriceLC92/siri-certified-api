@@ -3,7 +3,6 @@ package main
 import (
 	"context"
 	"encoding/json"
-	"log"
 	"os"
 	"path"
 	"siri-certified-api/companies"
@@ -13,7 +12,6 @@ import (
 )
 
 func handler(ctx context.Context, request events.APIGatewayProxyRequest) (events.APIGatewayProxyResponse, error) {
-	log.Println("Hello from companies lambda")
 	lambdaDir := os.Getenv("LAMBDA_TASK_ROOT")
 	jsonFilePath := path.Join(lambdaDir, "company-data.json")
 
