@@ -143,7 +143,7 @@ func main() {
 			return err
 		}
 
-		dummyLambda, err := createLambda(ctx, CreateLambda{functionName: "usersFunction", archivePath: "../handlers/dummy/dummy.zip", role: lambdaRole})
+		authLambda, err := createLambda(ctx, CreateLambda{functionName: "dummyFunction", archivePath: "../handlers/auth/auth.zip", role: lambdaRole})
 		if err != nil {
 			return err
 		}
@@ -188,10 +188,10 @@ func main() {
 			return err
 		}
 
-		dummyIntegration, err := apigatewayv2.NewIntegration(ctx, "dummyIntegration", &apigatewayv2.IntegrationArgs{
+		authIntegration, err := apigatewayv2.NewIntegration(ctx, "authIntegration", &apigatewayv2.IntegrationArgs{
 			ApiId:           api.ID(),
 			IntegrationType: pulumi.String("AWS_PROXY"),
-			IntegrationUri:  dummyLambda.InvokeArn,
+			IntegrationUri:  authLambda.InvokeArn,
 		})
 		if err != nil {
 			return err
@@ -217,10 +217,10 @@ func main() {
 			return err
 		}
 
-		_, err = apigatewayv2.NewRoute(ctx, "dummyRoute", &apigatewayv2.RouteArgs{
+		_, err = apigatewayv2.NewRoute(ctx, "authRoute", &apigatewayv2.RouteArgs{
 			ApiId:    api.ID(),
-			RouteKey: pulumi.String("GET /dummy"),
-			Target:   pulumi.Sprintf("integrations/%s", dummyIntegration.ID()),
+			RouteKey: pulumi.String("POST /auth"),
+			Target:   pulumi.Sprintf("integrations/%s", authIntegration.ID()),
 		})
 		if err != nil {
 			return err
@@ -255,11 +255,11 @@ func main() {
 			return err
 		}
 
-		_, err = lambda.NewPermission(ctx, "apiGatewayDummyInvoke", &lambda.PermissionArgs{
+		_, err = lambda.NewPermission(ctx, "apiGatewayAuthInvoke", &lambda.PermissionArgs{
 			Action:    pulumi.String("lambda:InvokeFunction"),
-			Function:  dummyLambda.Name,
+			Function:  authLambda.Name,
 			Principal: pulumi.String("apigateway.amazonaws.com"),
-			SourceArn: pulumi.Sprintf("arn:aws:execute-api:%s:%s:%s/$default/GET/dummy", region.Name, account.AccountId, api.ID()),
+			SourceArn: pulumi.Sprintf("arn:aws:execute-api:%s:%s:%s/$default/POST/auth", region.Name, account.AccountId, api.ID()),
 		})
 		if err != nil {
 			return err
@@ -283,6 +283,7 @@ func main() {
 }
 
 // Next steps
-// Create a user in the user pool - manually
+// Sign up a customer and get the verification code
+// Write the function used to verify that customer
 // Create a log in function which logs a customer in and returns the token
 // Use that token to access the /users route and see if it lets me in, if yes, I now have a functioning Auth system
