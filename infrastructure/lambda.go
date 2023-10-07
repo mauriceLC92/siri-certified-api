@@ -1,6 +1,10 @@
 package main
 
 import (
+	"log"
+	"os"
+
+	"github.com/joho/godotenv"
 	"github.com/pulumi/pulumi-aws/sdk/v6/go/aws/iam"
 	"github.com/pulumi/pulumi-aws/sdk/v6/go/aws/lambda"
 	"github.com/pulumi/pulumi/sdk/v3/go/pulumi"
@@ -13,6 +17,10 @@ type CreateLambda struct {
 }
 
 func createLambda(ctx *pulumi.Context, cr CreateLambda) (*lambda.Function, error) {
+	err := godotenv.Load()
+	if err != nil {
+		log.Fatal("Error loading .env file")
+	}
 	// The following works as is if you build the bootstrap binary first and then zip it
 	// AWS Lambda function
 	lambdaFunc, err := lambda.NewFunction(ctx, cr.functionName, &lambda.FunctionArgs{
@@ -26,6 +34,11 @@ func createLambda(ctx *pulumi.Context, cr CreateLambda) (*lambda.Function, error
 		Architectures: pulumi.ToStringArray([]string{"arm64"}),
 		Timeout:       pulumi.Int(300),
 		MemorySize:    pulumi.Int(128),
+		Environment: &lambda.FunctionEnvironmentArgs{
+			Variables: pulumi.StringMap{
+				"COGNITO_CLIENT_APP_ID": pulumi.String(os.Getenv("COGNITO_CLIENT_APP_ID")),
+			},
+		},
 	})
 	if err != nil {
 		return &lambda.Function{}, err

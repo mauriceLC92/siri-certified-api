@@ -19,5 +19,5 @@ zip-users:
 build-auth:
 	cd handlers/auth && GOARCH=arm64 GOOS=linux go build -o bootstrap main.go && zip auth.zip bootstrap
 
-zip-dummy:
+zip-auth:
 	cd handlers/auth && zip auth.zip bootstrap

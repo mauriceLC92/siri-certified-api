@@ -9,7 +9,7 @@ import (
 func main() {
 	fmt.Println("hey")
 
-	c, err := companies.GetCompanies(companies.COMPANY_DATA_FILE_PATH)
+	c, err := companies.GetCompanies(fmt.Sprintf("companies/%s", companies.COMPANY_DATA_FILE_PATH))
 	if err != nil {
 		log.Fatal(err)
 	}

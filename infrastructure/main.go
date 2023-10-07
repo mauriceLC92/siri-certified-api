@@ -21,6 +21,21 @@ func main() {
 			return err
 		}
 
+		// Cognito User Pool
+		userPool, err := createCognitoPool(ctx)
+		if err != nil {
+			return err
+		}
+
+		// Cognito User Pool Client
+		userPoolClient, err := createCognitoPoolClient(ctx, userPool)
+		if err != nil {
+			return err
+		}
+
+		ctx.Export("userPoolArn", userPool.Arn)
+		ctx.Export("userPoolClient ID", userPoolClient.ID())
+
 		// IAM Role for the Lambda function
 		lambdaRole, err := iam.NewRole(ctx, "lambdaRole", &iam.RoleArgs{
 			AssumeRolePolicy: pulumi.String(`{
@@ -122,21 +137,6 @@ func main() {
 		// Exports
 		ctx.Export("role", lambdaRole.Arn)
 		ctx.Export("table", table.Arn)
-
-		// Cognito User Pool
-		userPool, err := createCognitoPool(ctx)
-		if err != nil {
-			return err
-		}
-
-		// Cognito User Pool Client
-		userPoolClient, err := createCognitoPoolClient(ctx, userPool)
-		if err != nil {
-			return err
-		}
-
-		ctx.Export("userPoolArn", userPool.Arn)
-		ctx.Export("userPoolClient ID", userPoolClient.ID())
 
 		usersLambda, err := createLambda(ctx, CreateLambda{functionName: "usersFunction", archivePath: "../handlers/users/users.zip", role: lambdaRole})
 		if err != nil {
