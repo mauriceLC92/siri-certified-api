@@ -1,6 +1,10 @@
 package main
 
 import (
+	"log"
+	"os"
+
+	"github.com/joho/godotenv"
 	"github.com/pulumi/pulumi-aws/sdk/v6/go/aws"
 	"github.com/pulumi/pulumi-aws/sdk/v6/go/aws/apigatewayv2"
 	"github.com/pulumi/pulumi-aws/sdk/v6/go/aws/dynamodb"
@@ -11,6 +15,10 @@ import (
 
 func main() {
 	pulumi.Run(func(ctx *pulumi.Context) error {
+		err := godotenv.Load()
+		if err != nil {
+			log.Fatal("Error loading .env file")
+		}
 		account, err := aws.GetCallerIdentity(ctx, &aws.GetCallerIdentityArgs{})
 		if err != nil {
 			return err
@@ -20,21 +28,6 @@ func main() {
 		if err != nil {
 			return err
 		}
-
-		// Cognito User Pool
-		userPool, err := createCognitoPool(ctx)
-		if err != nil {
-			return err
-		}
-
-		// Cognito User Pool Client
-		userPoolClient, err := createCognitoPoolClient(ctx, userPool)
-		if err != nil {
-			return err
-		}
-
-		ctx.Export("userPoolArn", userPool.Arn)
-		ctx.Export("userPoolClient ID", userPoolClient.ID())
 
 		// IAM Role for the Lambda function
 		lambdaRole, err := iam.NewRole(ctx, "lambdaRole", &iam.RoleArgs{
@@ -158,10 +151,12 @@ func main() {
 		}
 
 		// ApplyT here would transform the Output to a string which is then inside an array
-		clientIdInArray := userPoolClient.ID().ToStringOutput().ApplyT(func(clientId string) []string {
-			return []string{clientId}
-		}).(pulumi.StringArrayOutput)
+		// clientIdInArray := userPoolClient.ID().ToStringOutput().ApplyT(func(clientId string) []string {
+		// 	return []string{clientId}
+		// }).(pulumi.StringArrayOutput)
 
+		clientIdInArray := pulumi.StringArray{pulumi.String(os.Getenv("COGNITO_CLIENT_APP_ID"))}
+		issuerEndpoint := pulumi.Sprintf("https://%s", pulumi.String(os.Getenv("COGNITO_ENDPOINT_URL")))
 		// Create Authorizer for the API
 		authorizer, err := apigatewayv2.NewAuthorizer(ctx, "users-api-authorizer", &apigatewayv2.AuthorizerArgs{
 			ApiId:           api.ID(),
@@ -170,7 +165,7 @@ func main() {
 			JwtConfiguration: apigatewayv2.AuthorizerJwtConfigurationArgs{
 				// Create JwtConfiguration
 				Audiences: clientIdInArray,
-				Issuer:    pulumi.Sprintf("https://%s", userPool.Endpoint),
+				Issuer:    issuerEndpoint,
 			},
 			Name: pulumi.String("jwt-authorizer"),
 		})

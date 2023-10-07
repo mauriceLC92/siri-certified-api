@@ -1,3 +1,6 @@
+cognito:
+	cd infrastructure/cognito && pulumi up --stack dev --yes
+
 infra:
 	cd infrastructure && pulumi up --stack dev --yes
 
