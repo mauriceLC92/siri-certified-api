@@ -3,14 +3,26 @@ package main
 import (
 	"context"
 	"encoding/json"
+	"log"
+	"os"
 
 	"siri-certified-api/auth"
 
 	"github.com/aws/aws-lambda-go/events"
 	"github.com/aws/aws-lambda-go/lambda"
-	"github.com/aws/aws-sdk-go-v2/config"
-	"github.com/aws/aws-sdk-go-v2/service/cognitoidentityprovider"
 )
+
+var cognitoClient *auth.CognitoClient
+
+// init is run once each time the Lambda container is initialised. Allows the client to be reused
+// between invocations of the handler from the same container before being deprovisioned.
+func init() {
+	newClient, err := auth.NewCognitoClient(os.Getenv("COGNITO_CLIENT_APP_ID"))
+	if err != nil {
+		log.Fatal(err.Error())
+	}
+	cognitoClient = newClient
+}
 
 type SignUpRequest struct {
 	Username string `json:"username"`
@@ -18,21 +30,19 @@ type SignUpRequest struct {
 }
 
 func handler(ctx context.Context, request events.APIGatewayProxyRequest) (events.APIGatewayProxyResponse, error) {
-	cfg, err := config.LoadDefaultConfig(context.TODO())
-	if err != nil {
-		panic(err)
-	}
 
 	var srRequest SignUpRequest
-	err = json.Unmarshal([]byte(request.Body), &srRequest)
+	err := json.Unmarshal([]byte(request.Body), &srRequest)
 	if err != nil {
 		return events.APIGatewayProxyResponse{StatusCode: 400, Body: "Invalid input"}, nil
 	}
 
-	cognitoClient := cognitoidentityprovider.NewFromConfig(cfg)
-	service := &auth.CognitoClient{Client: cognitoClient}
-
-	res, err := auth.SignUpUser(context.TODO(), service, srRequest.Username, srRequest.Password, "")
+	service := cognitoClient
+	res, err := auth.SignUpUser(context.TODO(), service, auth.SignUpUserParams{
+		Email:    srRequest.Username,
+		Password: srRequest.Password,
+		ClientID: os.Getenv("COGNITO_CLIENT_APP_ID"),
+	})
 	if err != nil {
 		return events.APIGatewayProxyResponse{
 			StatusCode: 500,
