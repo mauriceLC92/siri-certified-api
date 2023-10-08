@@ -29,7 +29,7 @@ func SignUpUser(ctx context.Context, service CognitoService, params SignUpUserPa
 }
 
 type ConfirmVerificationCodeParams struct {
-	ConfirmationCode, ClientID string
+	Email, ConfirmationCode, ClientID string
 }
 
 // ConfirmConfirmationCode is the function which confirms the verification code sent to a user after a successful sign up.
@@ -41,6 +41,7 @@ func ConfirmVerificationCode(ctx context.Context, service CognitoService, params
 	input := &cognitoidentityprovider.ConfirmSignUpInput{
 		ClientId:         &params.ClientID,
 		ConfirmationCode: &params.ConfirmationCode,
+		Username:         &params.Email,
 	}
 
 	return service.ConfirmSignUp(ctx, input)
