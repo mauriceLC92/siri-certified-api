@@ -1,3 +1,3 @@
-name: siri-certified-api
+name: siri-certified-cognito-api
 runtime: go
 description: A minimal AWS Go Pulumi program

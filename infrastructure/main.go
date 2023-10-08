@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"log"
 	"os"
 
@@ -28,6 +29,11 @@ func main() {
 		if err != nil {
 			return err
 		}
+
+		fmt.Print("clientID", os.Getenv("COGNITO_CLIENT_APP_ID"))
+
+		fmt.Printf("account.Arn: %v\n", account.Arn)
+		fmt.Printf("region.Description: %v\n", region.Description)
 
 		// IAM Role for the Lambda function
 		lambdaRole, err := iam.NewRole(ctx, "lambdaRole", &iam.RoleArgs{
@@ -136,13 +142,24 @@ func main() {
 			return err
 		}
 
-		authLambda, err := createLambda(ctx, CreateLambda{functionName: "dummyFunction", archivePath: "../handlers/auth/auth.zip", role: lambdaRole})
+		authLambda, err := createLambda(ctx, CreateLambda{functionName: "authFunction", archivePath: "../handlers/auth/auth.zip", role: lambdaRole})
+		if err != nil {
+			return err
+		}
+		signUpLambda, err := createLambda(ctx, CreateLambda{functionName: "signUpFunction", archivePath: "../handlers/authentication/sign-up/sign-up.zip", role: lambdaRole})
+		if err != nil {
+			return err
+		}
+		logInLambda, err := createLambda(ctx, CreateLambda{functionName: "logInLambdaFunction", archivePath: "../handlers/authentication/log-in/log-in.zip", role: lambdaRole})
+		if err != nil {
+			return err
+		}
+		confirmVerificationCodeLambda, err := createLambda(ctx, CreateLambda{functionName: "confirmVerificationCodeFunction", archivePath: "../handlers/authentication/confirm-verification-code/confirm-verification-code.zip", role: lambdaRole})
 		if err != nil {
 			return err
 		}
 
 		// All things API gateway related
-
 		api, err := apigatewayv2.NewApi(ctx, "users-api", &apigatewayv2.ApiArgs{
 			ProtocolType: pulumi.String("HTTP"),
 		})
@@ -201,6 +218,31 @@ func main() {
 			return err
 		}
 
+		signUpIntegration, err := apigatewayv2.NewIntegration(ctx, "signUpIntegration", &apigatewayv2.IntegrationArgs{
+			ApiId:           api.ID(),
+			IntegrationType: pulumi.String("AWS_PROXY"),
+			IntegrationUri:  signUpLambda.InvokeArn,
+		})
+		if err != nil {
+			return err
+		}
+		logInIntegration, err := apigatewayv2.NewIntegration(ctx, "logInIntegration", &apigatewayv2.IntegrationArgs{
+			ApiId:           api.ID(),
+			IntegrationType: pulumi.String("AWS_PROXY"),
+			IntegrationUri:  logInLambda.InvokeArn,
+		})
+		if err != nil {
+			return err
+		}
+		confirimVerificationCodeIntegration, err := apigatewayv2.NewIntegration(ctx, "confirimVerificationCodeIntegration", &apigatewayv2.IntegrationArgs{
+			ApiId:           api.ID(),
+			IntegrationType: pulumi.String("AWS_PROXY"),
+			IntegrationUri:  confirmVerificationCodeLambda.InvokeArn,
+		})
+		if err != nil {
+			return err
+		}
+
 		_, err = apigatewayv2.NewRoute(ctx, "userRoute", &apigatewayv2.RouteArgs{
 			ApiId:             api.ID(),
 			RouteKey:          pulumi.String("POST /users"),
@@ -216,6 +258,30 @@ func main() {
 			ApiId:    api.ID(),
 			RouteKey: pulumi.String("POST /auth"),
 			Target:   pulumi.Sprintf("integrations/%s", authIntegration.ID()),
+		})
+		if err != nil {
+			return err
+		}
+		_, err = apigatewayv2.NewRoute(ctx, "signUpRoute", &apigatewayv2.RouteArgs{
+			ApiId:    api.ID(),
+			RouteKey: pulumi.String("POST /signup"),
+			Target:   pulumi.Sprintf("integrations/%s", signUpIntegration.ID()),
+		})
+		if err != nil {
+			return err
+		}
+		_, err = apigatewayv2.NewRoute(ctx, "logInRoute", &apigatewayv2.RouteArgs{
+			ApiId:    api.ID(),
+			RouteKey: pulumi.String("POST /login"),
+			Target:   pulumi.Sprintf("integrations/%s", logInIntegration.ID()),
+		})
+		if err != nil {
+			return err
+		}
+		_, err = apigatewayv2.NewRoute(ctx, "confirmVerificationRoute", &apigatewayv2.RouteArgs{
+			ApiId:    api.ID(),
+			RouteKey: pulumi.String("POST /confirm-verification"),
+			Target:   pulumi.Sprintf("integrations/%s", confirimVerificationCodeIntegration.ID()),
 		})
 		if err != nil {
 			return err
@@ -255,6 +321,33 @@ func main() {
 			Function:  authLambda.Name,
 			Principal: pulumi.String("apigateway.amazonaws.com"),
 			SourceArn: pulumi.Sprintf("arn:aws:execute-api:%s:%s:%s/$default/POST/auth", region.Name, account.AccountId, api.ID()),
+		})
+		if err != nil {
+			return err
+		}
+		_, err = lambda.NewPermission(ctx, "apiGatewaySignUpInvoke", &lambda.PermissionArgs{
+			Action:    pulumi.String("lambda:InvokeFunction"),
+			Function:  signUpLambda.Name,
+			Principal: pulumi.String("apigateway.amazonaws.com"),
+			SourceArn: pulumi.Sprintf("arn:aws:execute-api:%s:%s:%s/$default/POST/signup", region.Name, account.AccountId, api.ID()),
+		})
+		if err != nil {
+			return err
+		}
+		_, err = lambda.NewPermission(ctx, "apiGatewayLogInInvoke", &lambda.PermissionArgs{
+			Action:    pulumi.String("lambda:InvokeFunction"),
+			Function:  logInLambda.Name,
+			Principal: pulumi.String("apigateway.amazonaws.com"),
+			SourceArn: pulumi.Sprintf("arn:aws:execute-api:%s:%s:%s/$default/POST/login", region.Name, account.AccountId, api.ID()),
+		})
+		if err != nil {
+			return err
+		}
+		_, err = lambda.NewPermission(ctx, "apiGatewayConfirmVerificationInvoke", &lambda.PermissionArgs{
+			Action:    pulumi.String("lambda:InvokeFunction"),
+			Function:  confirmVerificationCodeLambda.Name,
+			Principal: pulumi.String("apigateway.amazonaws.com"),
+			SourceArn: pulumi.Sprintf("arn:aws:execute-api:%s:%s:%s/$default/POST/confirm-verification", region.Name, account.AccountId, api.ID()),
 		})
 		if err != nil {
 			return err

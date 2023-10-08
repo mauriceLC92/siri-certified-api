@@ -1,5 +1,21 @@
+HANDLERS_DIR=handlers/authentication
+TARGETS=sign-up confirm-verification-code log-in
+GO_BUILD_ENV=GOARCH=arm64 GOOS=linux
+
+.PHONY: build-authentication $(TARGETS) cognito destroy-cognito infra destroy
+
+build-authentication: $(TARGETS)
+
+$(TARGETS):
+	cd $(HANDLERS_DIR)/$@ && \
+	$(GO_BUILD_ENV) go build -o bootstrap main.go && \
+	zip $@.zip bootstrap
+
 cognito:
 	cd infrastructure/cognito && pulumi up --stack dev --yes
+
+destroy-cognito:
+	cd infrastructure/cognito && pulumi destroy --stack dev --yes
 
 infra:
 	cd infrastructure && pulumi up --stack dev --yes
