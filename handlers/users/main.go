@@ -12,7 +12,7 @@ func handler(ctx context.Context, request events.APIGatewayProxyRequest) (events
 	fmt.Print("hello...")
 	return events.APIGatewayProxyResponse{
 		StatusCode: 200,
-		Body:       "Hello, from users!!",
+		Body:       "Hello, from the authenticated users endpoint",
 	}, nil
 }
 

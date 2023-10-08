@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"log"
 	"os"
 
@@ -29,11 +28,6 @@ func main() {
 		if err != nil {
 			return err
 		}
-
-		fmt.Print("clientID", os.Getenv("COGNITO_CLIENT_APP_ID"))
-
-		fmt.Printf("account.Arn: %v\n", account.Arn)
-		fmt.Printf("region.Description: %v\n", region.Description)
 
 		// IAM Role for the Lambda function
 		lambdaRole, err := iam.NewRole(ctx, "lambdaRole", &iam.RoleArgs{
@@ -142,10 +136,7 @@ func main() {
 			return err
 		}
 
-		authLambda, err := createLambda(ctx, CreateLambda{functionName: "authFunction", archivePath: "../handlers/auth/auth.zip", role: lambdaRole})
-		if err != nil {
-			return err
-		}
+		// Authentication
 		signUpLambda, err := createLambda(ctx, CreateLambda{functionName: "signUpFunction", archivePath: "../handlers/authentication/sign-up/sign-up.zip", role: lambdaRole})
 		if err != nil {
 			return err
@@ -200,15 +191,6 @@ func main() {
 			return err
 		}
 
-		authIntegration, err := apigatewayv2.NewIntegration(ctx, "authIntegration", &apigatewayv2.IntegrationArgs{
-			ApiId:           api.ID(),
-			IntegrationType: pulumi.String("AWS_PROXY"),
-			IntegrationUri:  authLambda.InvokeArn,
-		})
-		if err != nil {
-			return err
-		}
-
 		companiesIntegration, err := apigatewayv2.NewIntegration(ctx, "companiesIntegration", &apigatewayv2.IntegrationArgs{
 			ApiId:           api.ID(),
 			IntegrationType: pulumi.String("AWS_PROXY"),
@@ -254,14 +236,6 @@ func main() {
 			return err
 		}
 
-		_, err = apigatewayv2.NewRoute(ctx, "authRoute", &apigatewayv2.RouteArgs{
-			ApiId:    api.ID(),
-			RouteKey: pulumi.String("POST /auth"),
-			Target:   pulumi.Sprintf("integrations/%s", authIntegration.ID()),
-		})
-		if err != nil {
-			return err
-		}
 		_, err = apigatewayv2.NewRoute(ctx, "signUpRoute", &apigatewayv2.RouteArgs{
 			ApiId:    api.ID(),
 			RouteKey: pulumi.String("POST /signup"),
@@ -316,15 +290,6 @@ func main() {
 			return err
 		}
 
-		_, err = lambda.NewPermission(ctx, "apiGatewayAuthInvoke", &lambda.PermissionArgs{
-			Action:    pulumi.String("lambda:InvokeFunction"),
-			Function:  authLambda.Name,
-			Principal: pulumi.String("apigateway.amazonaws.com"),
-			SourceArn: pulumi.Sprintf("arn:aws:execute-api:%s:%s:%s/$default/POST/auth", region.Name, account.AccountId, api.ID()),
-		})
-		if err != nil {
-			return err
-		}
 		_, err = lambda.NewPermission(ctx, "apiGatewaySignUpInvoke", &lambda.PermissionArgs{
 			Action:    pulumi.String("lambda:InvokeFunction"),
 			Function:  signUpLambda.Name,
