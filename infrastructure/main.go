@@ -190,7 +190,6 @@ func main() {
 		if err != nil {
 			return err
 		}
-
 		companiesIntegration, err := apigatewayv2.NewIntegration(ctx, "companiesIntegration", &apigatewayv2.IntegrationArgs{
 			ApiId:           api.ID(),
 			IntegrationType: pulumi.String("AWS_PROXY"),
@@ -236,6 +235,17 @@ func main() {
 			return err
 		}
 
+		_, err = apigatewayv2.NewRoute(ctx, "companiesRoute", &apigatewayv2.RouteArgs{
+			ApiId:             api.ID(),
+			RouteKey:          pulumi.String("GET /companies"),
+			Target:            pulumi.Sprintf("integrations/%s", companiesIntegration.ID()),
+			AuthorizationType: pulumi.String("JWT"),
+			AuthorizerId:      authorizer.ID(),
+		})
+		if err != nil {
+			return err
+		}
+
 		_, err = apigatewayv2.NewRoute(ctx, "signUpRoute", &apigatewayv2.RouteArgs{
 			ApiId:    api.ID(),
 			RouteKey: pulumi.String("POST /signup"),
@@ -256,15 +266,6 @@ func main() {
 			ApiId:    api.ID(),
 			RouteKey: pulumi.String("POST /confirm-verification"),
 			Target:   pulumi.Sprintf("integrations/%s", confirimVerificationCodeIntegration.ID()),
-		})
-		if err != nil {
-			return err
-		}
-
-		_, err = apigatewayv2.NewRoute(ctx, "companiesRoute", &apigatewayv2.RouteArgs{
-			ApiId:    api.ID(),
-			RouteKey: pulumi.String("GET /companies"),
-			Target:   pulumi.Sprintf("integrations/%s", companiesIntegration.ID()),
 		})
 		if err != nil {
 			return err
@@ -334,9 +335,3 @@ func main() {
 		return nil
 	})
 }
-
-// Next steps
-// Sign up a customer and get the verification code
-// Write the function used to verify that customer
-// Create a log in function which logs a customer in and returns the token
-// Use that token to access the /users route and see if it lets me in, if yes, I now have a functioning Auth system
